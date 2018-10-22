@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'executive';
+  src: url("../fonts/ExecutiveRegular-Regular.eot");
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: 'executive';
+  src: url("../fonts/ExecutiveRegular-Italic.eot");
+  font-style: italic;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: 'theserif';
+  src: url("../fonts/theserif-5-regular-webfont.woff2") format("woff2"), url("../fonts/theserif-5-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: 'theserif';
+  src: url("../fonts/theserif-5-regularita-webfont.woff2") format("woff2"), url("../fonts/theserif-5-regularita-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  text-rendering: optimizeLegibility;
+}

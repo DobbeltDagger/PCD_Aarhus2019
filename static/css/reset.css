@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* BASIC CONSCIOUS RESETs +++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* make HTML5 elements block-level for consistent styling */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1
+}
+
+/* Basic Table styling */
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+table button,
+table input {
+  *overflow: auto
+}
+
+/* for IE9 overflow bug */
+td {
+  vertical-align: top;
+}
+
+/* Basic Form styling */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+
+button,
+input {
+  line-height: normal;
+  *overflow: visible;
+}
+
+/* Basic List styling */
+ul,
+ol {
+  margin: 0px;
+  padding: 0px;
+  /* 14px; */
+  /* 3em; */
+}
+
+ul ul,
+ol ol {
+  margin: 0;
+  padding: 0px;
+}
+
+/* only margin on top level lists */
+dd {
+  margin: 0 0 0 3em;
+}
+
+li {
+  line-height: 1.5em;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+sub,
+sup {
+  font-size: 75%;
+  font-size: 0.8462em;
+  /* 11/13 */
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em
+}
+
+/* Redeclare monospace font family: h5bp.com/j */
+pre,
+code,
+kbd,
+samp {
+  font-family: 'courier new', monospace;
+  font-size: 1em;
+  line-height: 1.4em;
+  background: #FFEEEE;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Improve readability of pre-formatted text in all browsers */
+/* basic resets is inside html5reset */
+* {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  margin: 0px;
+  padding: 0px;
+}
