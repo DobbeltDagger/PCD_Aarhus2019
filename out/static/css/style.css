@@ -1,0 +1,426 @@
+@charset "utf-8";
+/* CSS Document */
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i'); */
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i');
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a img {
+  border: 0px;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+.unselectable {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* SITE SPECIFIC styling ++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+html {
+  font-size: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 19px;
+  line-height: 1.4210em;
+  color: #363333;
+  /* #444; */
+  font-weight: 400;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: 'Arvo', serif;
+}
+
+.invisible {
+  visibility: hidden;
+  display: none;
+}
+
+
+/* TYPOGRAPHY +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* main typography */
+p {
+  margin: 0 0 1.5em 0;
+}
+
+blockquote {
+  margin: 0 0 1.5em 0;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 1.35em;
+}
+
+blockquote p {
+  margin: 0 0 1.5em 0;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 1.35em;
+}
+
+/* Header tags */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px 0px 1em 0px;
+  padding: 0px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.2em;
+  letter-spacing: -0.0075em;
+  color: #474444;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+h4 {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong,
+h1 b, h2 b, h3 b, h4 b, h5 b, h6 b {
+  font-weight: 700;
+}
+
+small {
+  display: block;
+  font-size: 13px;
+  line-height: 19px;
+  margin: 0px 0px 16px 0px;
+}
+
+/* INLINE LINKS */
+a {
+  color: #CC0044;
+  text-decoration: none;
+  outline: 0;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active,
+a:focus {
+  outline: 0;
+}
+
+/* we need something? */
+a:hover {
+  text-decoration: underline;
+  /* border-bottom: 1px solid #d26243; */
+  outline: none;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* REGIONS AND WRAPPERS +++++++++++++++++++++++++++++++++++++ */
+
+/* the page-wrapper is changed on "projekter"-page */
+#pageWrapper {
+  width: auto;
+  max-width: 1400px;
+  margin: 0px auto;
+}
+
+#contentWrapper {
+  padding: 8em 0px 0px 0px;
+}
+
+#mapid {
+  height: 380px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.grid {
+  width: auto;
+  padding: 0px 0.5em;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*='col-'] {
+  padding: 0px 0.5em;
+}
+
+.floatRight { float: right; }
+.floatLeft { float: left; }
+
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* THERE ARE STYLESHEETS ATTACHED TO THIS formatting */
+
+
+/* 1. MOBILE
+----------------------------------------------------------------------------- 
+----------------------------------------------------------------------------- */
+
+/* @media screen and (max-width: 339px) { */
+@media screen {
+
+  /* ALL COLUMNS NEED TO CHANGE */
+  .col-1-1 { width: 100%; }
+  .col-1-2 { width: 100%; }
+  .col-2-2 { width: 100%; }
+  .col-2-3 { width: 100%; }
+  .col-1-3 { width: 100%; }
+
+  .col-2-4 { width: 100%; }
+  .col-1-4 { width: 100%; }
+
+  .col-1-9 { width: 100%; }
+  .col-4-9 { width: 100%; }
+
+  .col-1-text {
+    width: 100%;
+  }
+
+  #pageWrapper {
+    padding: 0px; /* 5em 0px 0px 0px; */
+  }
+
+  header {
+    position: fixed;
+    display: block;
+    width: 100%;
+    padding: 1.5em 0px 0px 0px; /* 0.75em 0px 0px 0px; */
+    background: rgba(255, 255, 255, 0.92);
+    z-index: 10000;
+  }
+
+  header #logo {
+    width: 240px;
+    height: auto;
+    display: block;
+    float: left;
+    margin: 0px 1em 1em 0px;
+    opacity: 0.8;
+  }
+  header #logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* navbar large-menu */
+  header .large-menu ul {
+    text-align: left;
+  }
+  header .large-menu ul li {
+    display: inline;
+    margin-right: 1em;
+  }
+  
+  /* navbar small-menu */
+  header .small-menu ul {
+    text-align: right;
+  }
+  header .small-menu ul li {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0px;
+  }
+  header .small-menu ul li a {
+    display: block;
+    /* background: rgba(255,255,255,0.8); */
+    width: 100%;
+    margin-right: 0px;
+    padding: 0.5em;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.2);
+  }
+  /* the button in resp menu component */
+  .kPrmte {
+    display: none;
+    text-align: right !important;
+  }
+  
+  
+  /* MAINNAV */
+  /*
+  .mainNav {}
+
+  .mainNav:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .mainNav ul.menu {
+    text-align: left;
+    padding: 0px;
+  }
+
+  .mainNav ul.menu li {
+    display: block;
+    float: left;
+    margin: 0px;
+    padding-bottom: 0.5em;
+    line-height: normal;
+  }
+
+  .mainNav ul.menu li a {
+    padding: 0px 1em 0.25em 1em;
+    height: auto;
+    display: block;
+    float: left;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 1.25em;
+    line-height: 1.5em;
+    text-transform: lowercase;
+  }
+
+  .mainNav ul.menu li a:hover {
+    text-decoration: underline;
+  }
+
+  .mainNav ul.menu li a.active,
+  .mainNav ul li a.active-trail {
+    text-decoration: line-through;
+  }
+  */
+
+
+  /* footer stylings here */
+  footer {
+    padding-top: 0.5em;
+    margin: 0px 0px 1.5em 0px;
+  }
+
+  /* horisontal rule here */
+  footer .bar {
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.35);
+    margin-bottom: 0.5em;
+    display: none;
+  }
+
+  footer p {
+    font-size: 0.95em;
+    margin: 0px;
+  }
+
+  footer .col-2-3 {
+    text-align: left;
+    width: 100%;
+  }
+
+  footer .col-1-3 {
+    text-align: right;
+    visibility: hidden;
+  }
+
+}
+
+
+
+/* 3. LARGE
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media screen and (min-width: 780px) {
+
+  .col-1-1 { width: 100%; }
+  
+  .col-1-text {
+    width: 66.6666%;
+    margin-left: 16.66666%;
+  }
+
+  .col-1-2 {
+    width: 50%;
+    padding-right: 15px !important;
+  }
+  .col-2-2 {
+    width: 50%;
+    padding-left: 15px !important;
+  }
+  .col-1-3 {
+    width: 33.3333%;
+  }
+  .col-2-3 {
+    width: 66.6666%;
+  }
+  .col-2-4 {
+    width: 50%;
+  }
+  .col-1-4 {
+    width: 25%;
+  }
+  .col-1-9 {
+    width: 10%;
+    text-align: right;
+  }
+  .col-4-9 {
+    width: 45%;
+  }
+  .col-8-9 {
+    width: 90%;
+  }
+
+  #pageWrapper {
+    padding: 0px 0.25em; /* 0.5em 0px; /* 0.25em 0px 0.25em; /* 6em 0.25em 0px 0.25em; */
+  }
+
+
+  footer .col-2-3 {
+    text-align: left;
+    width: 66.6666%;
+  }
+
+  footer .col-1-3 {
+    visibility: visible;
+  }
+}
