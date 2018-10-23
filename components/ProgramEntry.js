@@ -18,12 +18,11 @@ const ProgramEntry = (props) => (
       .programEntry {
         padding: 0.5em 0px;
         width: 100%;
-        border-bottom: 1px dotted darkslateblue;
+        border-bottom: 1px solid rgba(32,27,63,0.1);
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
         display: flex;
-        color: darkslateblue;
       }
       span {
         text-align: left;

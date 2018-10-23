@@ -1,9 +1,8 @@
 import {Component} from 'react'
-import Link from 'next/link'
+import ActiveLink from '../components/ActiveLink'
 import ResponsiveMenu from 'react-responsive-navbar'
-// import { FaBars, FaClose } from 'react-icons/fa'
-import { FaBars, FaTimes } from 'react-icons/fa'
-import { IoIosMenu, IoIosClose } from 'react-icons/io'
+// import { FaBars, FaTimes } from 'react-icons/fa'
+// import { IoIosMenu, IoIosClose } from 'react-icons/io'
 import { MdMenu, MdClose } from 'react-icons/md'
 
 // https://www.npmjs.com/package/react-responsive-navbar
@@ -19,24 +18,24 @@ class NavBar extends Component {
         menu={
           <ul>
             <li>
-              <Link href="/program">
+              <ActiveLink href="/program">
                 <a className="active">program</a>
-              </Link>
+              </ActiveLink>
             </li>
             <li>
-              <Link href="/resources">
+              <ActiveLink href="/resources">
                 <a>resources</a>
-              </Link>
+              </ActiveLink>
             </li>
             <li>
-              <Link href="/about">
+              <ActiveLink href="/about">
                 <a>about</a>
-              </Link>
+              </ActiveLink>
             </li>
             <li>
-              <Link href="/open-call">
+              <ActiveLink href="/opencall">
                 <a className="openCall">open call</a>
-              </Link>
+              </ActiveLink>
             </li>
           </ul>
         }

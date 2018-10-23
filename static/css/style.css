@@ -64,7 +64,9 @@ body {
   padding: 0px;
   font-size: 16px; /* 19px; */
   line-height: 23px; /* 1.4210em; */
-  color: rgba(0,0,0,0.82); /* #363333; */
+  /* color: rgba(0,0,0,0.75); /* 82); /* #363333; */
+  /* http://www.html-color-names.com/darkslateblue.php */
+  color: #201b3f;
   font-weight: 400;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -93,17 +95,18 @@ p {
 h1, h2, h3, h4, h5, h6 {
   margin: 0px;
   padding: 0px;
-  font-weight: 800; /* 500; /* 700 */
+  font-weight: 700;
   font-style: normal;
   line-height: 1.35em;
-  color: rgba(0,0,0,0.7);
-  /* font-family: 'Times New Roman', Times, serif; */
+  /* color: rgba(0,0,0,0.7); */
+  /* http://www.html-color-names.com/darkslateblue.php */
+  color: #393743; /* #27214b; */
   font-family: 'EB Garamond', serif;
-  letter-spacing: -0.001em;
+  /* letter-spacing: -0.001em; */
   /* font-family: 'Roboto', sans-serif; */
 }
 h1 {font-size: 48px; }
-h2 { font-size: 27px; /* 32px; */ }
+h2 { font-size: 29px; /* 32px; */ }
 h3 { font-size: 19px; }
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong,
 h1 b, h2 b, h3 b, h4 b, h5 b, h6 b {
@@ -395,7 +398,7 @@ a img {
     position: fixed;
     top: -0.05em;
     left: -0.05em;
-    width: 110px;
+    width: 118px;
     height: auto;
   }
   /* text info here */
