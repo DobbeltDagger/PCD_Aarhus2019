@@ -1,1 +1,1 @@
-Processing Community Day Aarhus 2019
+Processing Community Day Aarhus 2019. Website built with nextjs

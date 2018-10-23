@@ -616,21 +616,29 @@
       "static\\1prF8KRsWAVi0UAuMcw_X\\pages\\program.js": 7,
       "static\\1prF8KRsWAVi0UAuMcw_X\\pages\\resources.js": 8,
       "static\\1prF8KRsWAVi0UAuMcw_X\\pages\\_app.js": 9,
-      "static\\1prF8KRsWAVi0UAuMcw_X\\pages\\_error.js": 10
+      "static\\1prF8KRsWAVi0UAuMcw_X\\pages\\_error.js": 10,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\about.js": 11,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\contact.js": 12,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\index.js": 13,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\opencall.js": 14,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\program.js": 15,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\resources.js": 16,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\_app.js": 17,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\_error.js": 18
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      10,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      2
     ]
   }
 }

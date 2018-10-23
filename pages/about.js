@@ -44,7 +44,7 @@ export default () => (
         <p>PCD @ Aarhus 2019 is organised by Nathalia Novais, Tobias Stenberg Christensen, Winnie Soon &amp; Anders Visti</p>
       </div>
       <div className="Grid-cell">
-        <p>Winnie's contact info</p>
+        <p>Winnie&#8217;s contact info</p>
       </div>
       <div className="Grid-cell">
         <p>Anders Visti<br/>https://andersvisti.dk<br/>andersvisti@gmail.com<br/>+45 60 63 02 84</p>

@@ -914,7 +914,7 @@ var people = [{
       lineNumber: 47
     },
     __self: this
-  }, "Winnie's contact info")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Winnie\u2019s contact info")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Grid-cell",
     __source: {
       fileName: _jsxFileName,

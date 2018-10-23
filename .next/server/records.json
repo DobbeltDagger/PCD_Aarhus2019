@@ -81,19 +81,28 @@
       "static\\1prF8KRsWAVi0UAuMcw_X\\pages\\resources.js": 5,
       "static\\1prF8KRsWAVi0UAuMcw_X\\pages\\_app.js": 6,
       "static\\1prF8KRsWAVi0UAuMcw_X\\pages\\_error.js": 7,
-      "static\\1prF8KRsWAVi0UAuMcw_X\\pages\\_document.js": 8
+      "static\\1prF8KRsWAVi0UAuMcw_X\\pages\\_document.js": 8,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\about.js": 9,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\contact.js": 10,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\index.js": 11,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\opencall.js": 12,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\program.js": 13,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\resources.js": 14,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\_app.js": 15,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\_error.js": 16,
+      "static\\4fyyjJs3oJaOnO4q4pd5s\\pages\\_document.js": 17
     },
     "bySource": {},
     "usedIds": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      9
     ]
   }
 }
