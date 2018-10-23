@@ -1,9 +1,9 @@
 {
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!static/css/reset.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!static/css/grid.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!static/css/reset.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!static/css/grid.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -22,11 +22,11 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!static/css/grid.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!static/css/reset.css": [
     {
       "modules": {
         "byIdentifier": {
-          "node_modules/css-loader/index.js??ref--5-1!static/css/grid.css": 0,
+          "node_modules/css-loader/index.js??ref--5-1!static/css/reset.css": 0,
           "node_modules/css-loader/lib/css-base.js": 1
         },
         "usedIds": {
@@ -73,12 +73,12 @@
       "node_modules/react/index.js": 0,
       "node_modules/prop-types/index.js": 1,
       "node_modules/core-js/library/modules/_core.js": 2,
-      "node_modules/core-js/library/modules/_export.js": 3,
-      "node_modules/next/link.js": 4,
+      "node_modules/next/link.js": 3,
+      "node_modules/core-js/library/modules/_export.js": 4,
       "node_modules/core-js/library/modules/_global.js": 5,
       "node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js": 6,
-      "node_modules/core-js/library/modules/_wks.js": 7,
-      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/Title.js": 8,
+      "node_modules/next/dist/build/webpack/loaders/next-babel-loader.js??ref--4!components/Title.js": 7,
+      "node_modules/core-js/library/modules/_wks.js": 8,
       "node_modules/core-js/library/modules/_is-object.js": 9,
       "node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js": 10,
       "node_modules/@babel/runtime-corejs2/helpers/createClass.js": 11,
@@ -284,21 +284,21 @@
       "node_modules/core-js/library/modules/es7.map.of.js": 211,
       "node_modules/core-js/library/modules/es7.map.from.js": 212,
       "multi ./pages/about.js": 213,
-      "node_modules/next/dist/lib/side-effect.js": 214,
-      "node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js": 215,
-      "node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js": 216,
-      "node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js": 217,
-      "node_modules/@babel/runtime-corejs2/core-js/array/from.js": 218,
-      "node_modules/core-js/library/fn/array/from.js": 219,
-      "node_modules/core-js/library/modules/es6.array.from.js": 220,
-      "node_modules/core-js/library/modules/_create-property.js": 221,
-      "node_modules/@babel/runtime-corejs2/core-js/is-iterable.js": 222,
-      "node_modules/core-js/library/fn/is-iterable.js": 223,
-      "node_modules/core-js/library/modules/core.is-iterable.js": 224,
-      "node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js": 225,
-      "node_modules/next/dist/lib/link.js": 226,
-      "node_modules/@babel/runtime-corejs2/core-js/json/stringify.js": 227,
-      "node_modules/core-js/library/fn/json/stringify.js": 228,
+      "node_modules/next/dist/lib/link.js": 214,
+      "node_modules/@babel/runtime-corejs2/core-js/json/stringify.js": 215,
+      "node_modules/core-js/library/fn/json/stringify.js": 216,
+      "node_modules/next/dist/lib/side-effect.js": 217,
+      "node_modules/@babel/runtime-corejs2/helpers/toConsumableArray.js": 218,
+      "node_modules/@babel/runtime-corejs2/helpers/arrayWithoutHoles.js": 219,
+      "node_modules/@babel/runtime-corejs2/helpers/iterableToArray.js": 220,
+      "node_modules/@babel/runtime-corejs2/core-js/array/from.js": 221,
+      "node_modules/core-js/library/fn/array/from.js": 222,
+      "node_modules/core-js/library/modules/es6.array.from.js": 223,
+      "node_modules/core-js/library/modules/_create-property.js": 224,
+      "node_modules/@babel/runtime-corejs2/core-js/is-iterable.js": 225,
+      "node_modules/core-js/library/fn/is-iterable.js": 226,
+      "node_modules/core-js/library/modules/core.is-iterable.js": 227,
+      "node_modules/@babel/runtime-corejs2/helpers/nonIterableSpread.js": 228,
       "node_modules/next/node_modules/webpack/buildin/harmony-module.js": 229,
       "node_modules/isobject/index.js": 230,
       "node_modules/mini-css-extract-plugin/dist/loader.js!node_modules/css-loader/index.js??ref--5-1!static/css/reset.css": 231,
@@ -609,22 +609,22 @@
       "commons": 0,
       "static/runtime/webpack.js": 1,
       "static/runtime/main.js": 2,
-      "static\\qwny6M0L2HiL3iU7vhLSn\\pages\\about.js": 3,
-      "static\\qwny6M0L2HiL3iU7vhLSn\\pages\\contact.js": 4,
-      "static\\qwny6M0L2HiL3iU7vhLSn\\pages\\index.js": 5,
-      "static\\qwny6M0L2HiL3iU7vhLSn\\pages\\opencall.js": 6,
-      "static\\qwny6M0L2HiL3iU7vhLSn\\pages\\program.js": 7,
-      "static\\qwny6M0L2HiL3iU7vhLSn\\pages\\resources.js": 8,
-      "static\\qwny6M0L2HiL3iU7vhLSn\\pages\\_app.js": 9,
-      "static\\qwny6M0L2HiL3iU7vhLSn\\pages\\_error.js": 10,
-      "static\\IprDzT687AjuHFcLgBGXH\\pages\\about.js": 11,
-      "static\\IprDzT687AjuHFcLgBGXH\\pages\\contact.js": 12,
-      "static\\IprDzT687AjuHFcLgBGXH\\pages\\index.js": 13,
-      "static\\IprDzT687AjuHFcLgBGXH\\pages\\opencall.js": 14,
-      "static\\IprDzT687AjuHFcLgBGXH\\pages\\program.js": 15,
-      "static\\IprDzT687AjuHFcLgBGXH\\pages\\resources.js": 16,
-      "static\\IprDzT687AjuHFcLgBGXH\\pages\\_app.js": 17,
-      "static\\IprDzT687AjuHFcLgBGXH\\pages\\_error.js": 18
+      "static\\D3e9ptI0KCSHofJmdk10N\\pages\\about.js": 3,
+      "static\\D3e9ptI0KCSHofJmdk10N\\pages\\contact.js": 4,
+      "static\\D3e9ptI0KCSHofJmdk10N\\pages\\index.js": 5,
+      "static\\D3e9ptI0KCSHofJmdk10N\\pages\\opencall.js": 6,
+      "static\\D3e9ptI0KCSHofJmdk10N\\pages\\program.js": 7,
+      "static\\D3e9ptI0KCSHofJmdk10N\\pages\\resources.js": 8,
+      "static\\D3e9ptI0KCSHofJmdk10N\\pages\\_app.js": 9,
+      "static\\D3e9ptI0KCSHofJmdk10N\\pages\\_error.js": 10,
+      "static\\~qHC0h74HcSjIioIwVddk\\pages\\about.js": 11,
+      "static\\~qHC0h74HcSjIioIwVddk\\pages\\contact.js": 12,
+      "static\\~qHC0h74HcSjIioIwVddk\\pages\\index.js": 13,
+      "static\\~qHC0h74HcSjIioIwVddk\\pages\\opencall.js": 14,
+      "static\\~qHC0h74HcSjIioIwVddk\\pages\\program.js": 15,
+      "static\\~qHC0h74HcSjIioIwVddk\\pages\\resources.js": 16,
+      "static\\~qHC0h74HcSjIioIwVddk\\pages\\_app.js": 17,
+      "static\\~qHC0h74HcSjIioIwVddk\\pages\\_error.js": 18
     },
     "bySource": {},
     "usedIds": [

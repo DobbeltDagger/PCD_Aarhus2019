@@ -28,7 +28,7 @@ class Index extends Component {
             <p><Link href='https://processing.org'><a target="_blank">Processing</a></Link> is a free and open-source software platform for learning how to code within the context of the visual arts, created by Casey Reas and Ben Fry. It is complemented by a web version, called <Link href='https://p5js.org/'><a target="_blank">p5.js</a></Link>, created by Lauren McCarthy.<br/>To date, Processing and p5.js are used by a worldwide community of artists, coders, educators, students.</p>
           </div>
           <div className="Grid-cell">
-            <p>A focus of this project is to make learning how to program and make creative work with code accessible to diverse communities, especially those who might not otherwise have access to these tools and resources. The <Link href='https://medium.com/processing-foundation/after-processing-community-day-8e124b1ec85e'><a target="_blank">first Processing Community Day (PCD)</a></Link>, organized by Taeyoon Choi and the Processing Foundation in 2017 was an effort to improve diversity within the art and programming community.</p>
+            <p>A focus of this project is to make learning how to program and make creative work with code accessible to diverse communities. The <Link href='https://medium.com/processing-foundation/after-processing-community-day-8e124b1ec85e'><a target="_blank">first Processing Community Day (PCD)</a></Link>, organized by Taeyoon Choi and the Processing Foundation in 2017 was an effort to improve diversity within the art and programming community.</p>
           </div>
           <div className="Grid-cell">
             <p>For Processing Community Day 2019, we would like to broaden the reach and impact of this community by organizing with hundreds of Processing communities around the world. The Processing Foundation will be organizing a Processing Community Day in Los Angeles as well as inviting node organizers from all over the world to join us in organizing events in multiple locations.</p>
@@ -37,13 +37,10 @@ class Index extends Component {
         <Title txt="PCD @Aarhus 2019, How to think about code differently" />
         <div className="Grid Grid--gutters Grid--full large-Grid--fit">
           <div className="Grid-cell">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat imperdiet sapien eget posuere. Phasellus aliquet orci sed augue pulvinar tempor. Nullam non ipsum eget lorem ullamcorper tristique vel non leo. Curabitur vel mauris nunc. Suspendisse non semper diam. Sed vitae lectus sit amet magna congue pretium.</p>
+            <p>For PCD @ Aarhus 2019, we are aiming to build an open and local community to explore code and coding practice in many different ways beyond science and engineering specialisation and functional applications development.</p>
           </div>
           <div className="Grid-cell">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat imperdiet sapien eget posuere. Phasellus aliquet orci sed augue pulvinar tempor. Nullam non ipsum eget lorem ullamcorper tristique vel non leo. Curabitur vel mauris nunc. Suspendisse non semper diam.</p>
-          </div>
-          <div className="Grid-cell">
-            <p>Cras pretium enim ac ex accumsan dapibus. Nullam luctus egestas semper. Sed rhoncus mollis est at porttitor. Sed placerat aliquet dignissim. Curabitur in tristique tortor. Fusce lorem metus, suscipit nec ante in, lobortis rutrum lacus. Nunc id viverra lacus. Nulla blandit vehicula sodales. Vivamus facilisis blandit diam, in pretium leo volutpat non</p>
+            <p>Together with each of you from diverse backgrounds, we would like to explore how could we think about code differently and creatively via art, design and beyond.</p>
           </div>
         </div>
       </Layout>
