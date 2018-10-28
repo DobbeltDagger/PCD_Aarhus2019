@@ -24,21 +24,8 @@ const resources = [
     name: 'Coding Train',
     desc: 'some short description here',
     link: 'https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw' // youtube
-  },
-  {
-    thumb: '../static/images/catThumb.jpg',
-    name: 'Coding Train',
-    desc: 'some short description here',
-    link: 'https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw' // youtube
-  },
-  {
-    thumb: '../static/images/catThumb.jpg',
-    name: 'Coding Train',
-    desc: 'some short description here',
-    link: 'https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw' // youtube
-  }, 
+  }
 ];
-
 
 class Program extends Component {
   constructor(props) {
@@ -75,6 +62,41 @@ class Program extends Component {
               />
           })}
         </div>
+        <Title txt="Additional resources" />
+        <div className="Grid Grid--gutters Grid--full large-Grid--fit">
+          <div className="Grid-cell">
+            <div className="padlet-embed">
+              <p>
+                <iframe src="https://padlet.com/embed/69nef43cadri" frameBorder="0" allow="camera;microphone;geolocation"></iframe>
+              </p>
+            </div>
+          </div>
+        </div>
+        <style jsx>{`
+          .padlet-embed {
+            border-radius: 2px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            background: #F4F4F4;
+          }
+          .padlet-embed p {
+            padding:0;
+            margin:0;
+          }
+          .padlet-embed iframe {
+            width:100%;
+            height: 608px;
+            display: block;
+            float: left;
+            padding:0;
+            margin:0;
+            overflow-x:hidden;
+          }
+        `}</style>
       </Layout>
     )
   }
