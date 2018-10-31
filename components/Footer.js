@@ -9,10 +9,7 @@ const Footer = () => (
     </div>
     <div className="Grid Grid--gutters Grid--full large-Grid--fit">
       <div className="Grid-cell">
-        <p>Some stuff here .. maybe contact info and such</p>
-      </div>
-      <div className="Grid-cell">
-        <p>Something else here: <a href="#" target="_top">top</a></p>
+        <p>Processing Community Day Aarhus.<br/>Saturday, February 9th from 11.00–15.30 @DOKK1<br/><a href="#" target="_top">top</a></p>
       </div>
     </div>
   </footer>

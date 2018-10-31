@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -207,25 +207,24 @@ var Footer = function Footer() {
       lineNumber: 12
     },
     __self: this
-  }, "Some stuff here .. maybe contact info and such")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Grid-cell",
+  }, "Processing Community Day Aarhus.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), "Saturday, February 9th from 11.00\u201315.30 @DOKK1", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 12
     },
     __self: this
-  }, "Something else here: ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#",
     target: "_top",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 12
     },
     __self: this
   }, "top")))));
@@ -490,98 +489,93 @@ var Layout = function Layout(props) {
 
 /***/ }),
 
-/***/ "./components/PeopleEntry.js":
-/*!***********************************!*\
-  !*** ./components/PeopleEntry.js ***!
-  \***********************************/
+/***/ "./components/ProgramEntry.js":
+/*!************************************!*\
+  !*** ./components/ProgramEntry.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\PeopleEntry.js";
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\ProgramEntry.js";
+
 
  // styled jsx for props in css
 // https://nextjs.org/learn/basics/styling-components/no-effect-for-nested-components
 
-var PeopleEntry = function PeopleEntry(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "peopleEntry",
+var ProgramEntry = function ProgramEntry(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-701461322" + " " + "programEntry",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "thumb",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-701461322" + " " + "timeWrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: props.link,
+  }, props.time), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-701461322" + " " + "lead",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    target: "_blank",
+  }, props.lead), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-701461322" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: props.thumb,
+  }, props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-701461322" + " " + "desc",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "name",
+  }, props.desc), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-701461322" + " " + "link",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 12
     },
     __self: this
-  }, props.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "desc",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, props.desc), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: props.link,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     target: "_blank",
+    className: "jsx-701461322",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 14
     },
     __self: this
-  }, props.link))));
+  }, props.link))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "701461322",
+    css: ".programEntry.jsx-701461322{padding:0.5em 0px;width:100%;border-bottom:1px solid rgba(32,27,63,0.1);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}span.jsx-701461322{text-align:left;}span.timeWrapper.jsx-701461322{padding-right:1em;-webkit-flex:1;-ms-flex:1;flex:1;}span.lead.jsx-701461322{padding-right:1em;-webkit-flex:2;-ms-flex:2;flex:2;}span.title.jsx-701461322{-webkit-flex:3;-ms-flex:3;flex:3;}span.desc.jsx-701461322{-webkit-flex:3;-ms-flex:3;flex:3;display:none;}span.link.jsx-701461322{-webkit-flex:2;-ms-flex:2;flex:2;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxQQ0RfQUFSSFVTX055dERlc2lnblxcY29tcG9uZW50c1xcUHJvZ3JhbUVudHJ5LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCZ0IsQUFHMkIsQUFTRixBQUdFLEFBSUEsQUFJWCxBQUdBLEFBSUEsZ0JBakJULEVBVGEsQUFZSixBQUlBLFdBZm9DLElBbUI3QyxBQUdlLEFBSWYsYUFIQSxLQVhBLEFBSUEscUJBZnNCLG9CQUNDLHFCQUNELG9CQUNQLDBFQUNmIiwiZmlsZSI6IkM6XFx4YW1wcFxcaHRkb2NzXFxQQ0RfQUFSSFVTX055dERlc2lnblxcY29tcG9uZW50c1xcUHJvZ3JhbUVudHJ5LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xyXG5cclxuLy8gc3R5bGVkIGpzeCBmb3IgcHJvcHMgaW4gY3NzXHJcbi8vIGh0dHBzOi8vbmV4dGpzLm9yZy9sZWFybi9iYXNpY3Mvc3R5bGluZy1jb21wb25lbnRzL25vLWVmZmVjdC1mb3ItbmVzdGVkLWNvbXBvbmVudHNcclxuXHJcbmNvbnN0IFByb2dyYW1FbnRyeSA9IChwcm9wcykgPT4gKFxyXG4gIDxkaXYgY2xhc3NOYW1lPVwicHJvZ3JhbUVudHJ5XCI+XHJcbiAgICA8c3BhbiBjbGFzc05hbWU9XCJ0aW1lV3JhcHBlclwiPntwcm9wcy50aW1lfTwvc3Bhbj5cclxuICAgIDxzcGFuIGNsYXNzTmFtZT1cImxlYWRcIj57cHJvcHMubGVhZH08L3NwYW4+XHJcbiAgICA8c3BhbiBjbGFzc05hbWU9XCJ0aXRsZVwiPntwcm9wcy50aXRsZX08L3NwYW4+XHJcbiAgICA8c3BhbiBjbGFzc05hbWU9XCJkZXNjXCI+e3Byb3BzLmRlc2N9PC9zcGFuPlxyXG4gICAgPHNwYW4gY2xhc3NOYW1lPVwibGlua1wiPlxyXG4gICAgICA8TGluayBocmVmPXtwcm9wcy5saW5rfT5cclxuICAgICAgICA8YSB0YXJnZXQ9XCJfYmxhbmtcIj57cHJvcHMubGlua308L2E+XHJcbiAgICAgIDwvTGluaz5cclxuICAgIDwvc3Bhbj5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgLnByb2dyYW1FbnRyeSB7XHJcbiAgICAgICAgcGFkZGluZzogMC41ZW0gMHB4O1xyXG4gICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCByZ2JhKDMyLDI3LDYzLDAuMSk7XHJcbiAgICAgICAgZGlzcGxheTogLXdlYmtpdC1ib3g7XHJcbiAgICAgICAgZGlzcGxheTogLXdlYmtpdC1mbGV4O1xyXG4gICAgICAgIGRpc3BsYXk6IC1tcy1mbGV4Ym94O1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIH1cclxuICAgICAgc3BhbiB7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcclxuICAgICAgfVxyXG4gICAgICBzcGFuLnRpbWVXcmFwcGVyIHtcclxuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxZW07XHJcbiAgICAgICAgZmxleDogMTtcclxuICAgICAgfVxyXG4gICAgICBzcGFuLmxlYWQge1xyXG4gICAgICAgIHBhZGRpbmctcmlnaHQ6IDFlbTtcclxuICAgICAgICBmbGV4OiAyO1xyXG4gICAgICB9XHJcbiAgICAgIHNwYW4udGl0bGUge1xyXG4gICAgICAgIGZsZXg6IDM7XHJcbiAgICAgIH1cclxuICAgICAgc3Bhbi5kZXNjIHtcclxuICAgICAgICBmbGV4OiAzO1xyXG4gICAgICAgIGRpc3BsYXk6IG5vbmU7XHJcbiAgICAgIH1cclxuICAgICAgc3Bhbi5saW5rIHtcclxuICAgICAgICBmbGV4OiAyO1xyXG4gICAgICB9XHJcbiAgICBgfTwvc3R5bGU+XHJcbiAgPC9kaXY+XHJcbiAgXHJcbilcclxuXHJcbmV4cG9ydCBkZWZhdWx0IFByb2dyYW1FbnRyeSJdfQ== */\n/*@ sourceURL=C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\ProgramEntry.js */",
+    __self: this
+  }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (PeopleEntry);
+/* harmony default export */ __webpack_exports__["default"] = (ProgramEntry);
 
 /***/ }),
 
@@ -848,10 +842,10 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./pages/about.js":
-/*!************************!*\
-  !*** ./pages/about.js ***!
-  \************************/
+/***/ "./pages/program.js":
+/*!**************************!*\
+  !*** ./pages/program.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -859,277 +853,137 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
-/* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Title */ "./components/Title.js");
-/* harmony import */ var _components_PeopleEntry__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/PeopleEntry */ "./components/PeopleEntry.js");
-var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\about.js";
-
-// pages/about.js
+/* harmony import */ var _components_ProgramEntry__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ProgramEntry */ "./components/ProgramEntry.js");
+/* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Title */ "./components/Title.js");
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\program.js";
 
 
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+// pages/program.js
 
 
-var people = [{
-  thumb: '../static/images/people/CatPortrait.jpg',
-  name: 'Nathalia Novais',
-  desc: 'Bio tba ...',
-  link: ''
+
+
+ // make the program as JSON
+
+var prgJson = [{
+  id: 0,
+  title: 'title #1',
+  lead: 'First Middle Namesen',
+  desc: 'This is some dummy text here to the first guy here',
+  link: 'https://somelink.com',
+  time: '12.15 - 12.30'
 }, {
-  thumb: '../static/images/people/CatPortrait.jpg',
-  name: 'Tobias Stenberg Christensen',
-  desc: 'Bio tba ...',
-  link: ''
+  id: 1,
+  title: 'title #2, the Second Title of the day!',
+  lead: 'This is the name of the 2nd',
+  desc: 'This is some dummy text here to the second guy here',
+  link: 'https://somelinkOrOther.com',
+  time: '12.30 - 12.45'
 }, {
-  thumb: '../static/images/people/WinnieSoon.jpg',
-  name: 'Winnie Soon',
-
-  /*
-  desc: 'Winnie Soon is an artist-researcher who resides in Hong Kong and Denmark. Her works explore themes/concepts around digital culture, specifically concerning internet censorship, data circulation, real-time processing, infrastructure and the culture of code practice. Winnie’s projects have been exhibited and presented internationally at museums, festivals, universities and conferences across Europe, Asia and America. Her current research focuses on exploratory and aesthetic programming, working on two books titled “Aesthetic Programming” (with Geoff Cox) and “Fix My Code” (with Cornelia Sollfrank). She is Assistant Professor at Aarhus University.',*/
-  desc: 'Bio tba ...',
-  link: 'http://www.siusoon.net'
-}, {
-  thumb: '../static/images/people/AndersVisti.jpg',
-  name: 'Anders Visti',
-  desc: 'Visual artist working with code. Founder and co-editor of the publishing house * [asterisk] from 2002-12. Founder and editor of the printed web publication ‡ DobbeltDagger and initiator of !=null, a public forum for artists, researchers, developers and hackers using contemporary technology for creative expression and aesthetic inquiry',
-  link: 'https://andersvisti.dk'
+  id: 2,
+  title: 'title #3',
+  lead: 'This is the name #3',
+  desc: 'This is some dummy text here',
+  link: 'https://somelink.com',
+  time: '12.45 - 13.00'
 }];
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    txt: "About",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Grid Grid--gutters Grid--full large-Grid--fit",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Grid-cell",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "PCD @ Aarhus 2019 is organised by:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }), "Nathalia Novais, Tobias Stenberg Christensen, Winnie Soon & Anders Visti")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Grid-cell",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "Winnie Soon", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "http://www.siusoon.net",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "www.siusoon.net")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }), "rwx@siusoon.net")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Grid-cell",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, "Anders Visti", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "https://andersvisti.dk",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }, "https://andersvisti.dk")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47
-    },
-    __self: this
-  }), "andersvisti@gmail.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    txt: "People",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "peopleWrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, people.map(function (pe, i) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_PeopleEntry__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      key: pe.id,
-      id: pe.id,
-      name: pe.name,
-      desc: pe.desc,
-      link: pe.link,
-      thumb: pe.thumb,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53
-      },
-      __self: this
-    });
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    txt: "Partnerships",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Grid Grid--gutters Grid--full large-Grid--fit",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Grid-cell",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }, "The event is supported by:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "https://notnull.andersvisti.dk/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, "!=null")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "http://cc.au.dk/en/about-the-school/departments/digital-design-and-information-studies/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, "Department of Digital Design and Information Studies, Aarhus University")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "https://dokk1.dk/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    target: "_blank",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, "DOKK1, Aarhus Public Library"))))));
-});
+
+var Program =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Program, _Component);
+
+  function Program(props) {
+    var _this;
+
+    _classCallCheck(this, Program);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Program).call(this, props));
+    _this.state = {};
+    return _this;
+  }
+
+  _createClass(Program, [{
+    key: "render",
+    value: function render() {
+      // some code here
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        txt: "Program",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, "To be announced ..."));
+    }
+  }]);
+
+  return Program;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+/*
+class Program extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    // some code here
+    return (
+      <Layout>
+        <Title txt="Program" />
+        {prgJson.map( function(pe, i) {
+          return <ProgramEntry
+            key={pe.id}
+            id={pe.id}
+            title={pe.title}
+            lead={pe.lead}
+            desc={pe.desc}
+            link={pe.link}
+            time={pe.time}    
+            />
+        })}        
+      </Layout>
+    )
+  }
+}
+*/
+
+
+/* harmony default export */ __webpack_exports__["default"] = (Program);
 
 /***/ }),
 
@@ -1166,14 +1020,14 @@ var people = [{
 
 /***/ }),
 
-/***/ 6:
-/*!******************************!*\
-  !*** multi ./pages/about.js ***!
-  \******************************/
+/***/ 4:
+/*!********************************!*\
+  !*** multi ./pages/program.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/about.js */"./pages/about.js");
+module.exports = __webpack_require__(/*! ./pages/program.js */"./pages/program.js");
 
 
 /***/ }),
@@ -1242,7 +1096,18 @@ module.exports = require("react-icons/md");
 
 module.exports = require("react-responsive-navbar");
 
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
+
 /***/ })
 
 /******/ });
-//# sourceMappingURL=about.js.map
+//# sourceMappingURL=program.js.map

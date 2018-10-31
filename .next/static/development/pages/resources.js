@@ -114,25 +114,24 @@ var Footer = function Footer() {
       lineNumber: 12
     },
     __self: this
-  }, "Some stuff here .. maybe contact info and such")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "Grid-cell",
+  }, "Processing Community Day Aarhus.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 12
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }), "Saturday, February 9th from 11.00\u201315.30 @DOKK1", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 12
     },
     __self: this
-  }, "Something else here: ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#",
     target: "_top",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 12
     },
     __self: this
   }, "top")))));
