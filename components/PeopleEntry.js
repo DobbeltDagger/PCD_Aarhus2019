@@ -14,6 +14,11 @@ const PeopleEntry = (props) => (
     </span>
     <span className="name">{props.name}</span>
     <span className="desc">{props.desc}</span>
+    <span>
+      <Link href={props.link}>
+        <a target="_blank">{props.link}</a>
+      </Link>
+    </span>
   </div>
 )
 

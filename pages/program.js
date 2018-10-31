@@ -1,7 +1,6 @@
 // pages/program.js
 import {Component} from 'react'
 import {withRouter} from 'next/router'
-import Link from 'next/link'
 import Layout from '../components/MyLayout.js'
 import ProgramEntry from '../components/ProgramEntry'
 import Title from '../components/Title'
@@ -46,6 +45,24 @@ class Program extends Component {
     return (
       <Layout>
         <Title txt="Program" />
+        <p>To be announced ...</p>       
+      </Layout>
+    )
+  }
+}
+
+/*
+class Program extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    // some code here
+    return (
+      <Layout>
+        <Title txt="Program" />
         {prgJson.map( function(pe, i) {
           return <ProgramEntry
             key={pe.id}
@@ -61,5 +78,6 @@ class Program extends Component {
     )
   }
 }
+*/
 
 export default Program

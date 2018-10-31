@@ -37,18 +37,6 @@ class Program extends Component {
     // some code here
     return (
       <Layout>
-        <Title txt="Resources" />
-        <div className="Grid Grid--gutters Grid--full large-Grid--fit">
-          <div className="Grid-cell">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat imperdiet sapien eget posuere. Phasellus aliquet orci sed augue pulvinar tempor. Nullam non ipsum eget lorem ullamcorper tristique vel non leo.</p>
-          </div>
-          <div className="Grid-cell">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat imperdiet sapien eget posuere. Phasellus aliquet orci sed augue pulvinar tempor. Nullam non ipsum eget lorem ullamcorper tristique vel non leo.</p>
-          </div>
-          <div className="Grid-cell">
-            <p>Cras pretium enim ac ex accumsan dapibus. Nullam luctus egestas semper. Sed rhoncus mollis est at porttitor. Sed placerat aliquet dignissim. Curabitur in tristique tortor. Fusce lorem metus, suscipit nec ante in, lobortis rutrum lacus.</p>
-          </div>
-        </div>
         <Title txt="Resource links" />
         <div className="resourceWrapper">
           {resources.map( function(re, i) {
@@ -62,6 +50,7 @@ class Program extends Component {
               />
           })}
         </div>
+        <br/>
         <Title txt="Additional resources" />
         <div className="Grid Grid--gutters Grid--full large-Grid--fit">
           <div className="Grid-cell">
@@ -84,8 +73,8 @@ class Program extends Component {
             background: #F4F4F4;
           }
           .padlet-embed p {
-            padding:0;
-            margin:0;
+            padding: 0;
+            margin: 0;
           }
           .padlet-embed iframe {
             width:100%;

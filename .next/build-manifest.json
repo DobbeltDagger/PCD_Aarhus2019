@@ -11,13 +11,13 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/resources": [
+    "/about": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",
       "static/runtime/main.js"
     ],
-    "/opencall": [
+    "/resources": [
       "static/runtime/webpack.js",
       "static/css/styles.chunk.css",
       "static/chunks/styles.js",

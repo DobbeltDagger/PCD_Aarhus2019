@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i);
-@import url(https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,500,500i,600,600i,700,700i,800,800i);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond:500,500i,700,700i);
 @charset "utf-8";
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* BASIC CONSCIOUS RESETs +++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -493,7 +493,7 @@ a img {
   display: -ms-flexbox;
   display: flex;
 }
-
+/* main column wrapper max 1024px */
 .maxWidth {
   max-width: 1024px;
   margin: 0px auto;
@@ -545,8 +545,17 @@ a img {
 .peopleEntry span.desc {
   display: block;
   float: left;
+  /* margin-bottom: 1.5em; */
+}
+/*
+.resourceEntry span.link,
+.peopleEntry span.link {
+  display: block;
+  float: left;
   margin-bottom: 1.5em;
 }
+*/
+
 
 
 /* ******************************************************** */
@@ -560,7 +569,7 @@ a img {
 
 /* ************************************************** */
 /* media small */
-@media {
+@media screen {
 
   #pageWrapper {
     /* -webkit-box-orient: vertical;
@@ -574,14 +583,18 @@ a img {
   header {
     flex: 1;
     padding: 0.65em 0.65em 0.4em 0.65em; /* 0.5em 0.5em 0.25em 0.5em; */
-    background: transparent;
+    background: yellow; /* transparent; */
+    margin-bottom: 1em;
+    min-height: 90px; /* 75px; */
   }
   header #logo {
-    width: 80px; /* 110px; */
+    width: 100px; /* 80px; /* 110px; */
     height: auto;
-    display: block;
-    float: left;
-    margin: 0px 0px 0.25em 0px;
+    margin: 0px; /* 0px 0px 0.25em 0px; */
+    /* margin: -0.75em 0px 0.25em -0.75em; */
+    position: absolute; /* fixed; */
+    top: -0.25em; /* -0.075em; */
+    left: -0.075em;
     opacity: 0.78;
   }
   header #logo a {
@@ -631,7 +644,7 @@ a img {
   header .small-menu ul {
     text-align: right;
     border-bottom: 1px solid rgba(0,0,0,0.2);
-    margin-bottom: 1em;
+    margin-bottom: 0.25em; /* 0px; /* 1em; */
   }
   header .small-menu ul li {
     display: inline-block;
@@ -656,7 +669,15 @@ a img {
   .kPrmte {
     display: none;
     text-align: right !important;
-    margin-top: -0.45em;
+    margin-top: 0px; /* -0.45em; */
+    /* margin-right: -7px; */
+    opacity: 0.87;
+  }
+
+  .resourceEntry,
+  .peopleEntry {
+    overflow: hidden;
+    padding-bottom: 1.5em;
   }
 
   .resourceEntry {
@@ -666,18 +687,8 @@ a img {
     flex: 0 0 50%; /* 1; */
   }
 
-  /* open call menu class */
-  /*
-  #SubHeader .large-menu ul li a.openCall {
-    font-size: 48px;
-    line-height: 48px;
-    text-transform: uppercase;
-    width: 4em;
-    display: block;
-    margin-top: 1em;
-  }
-  */
 
+  
   /* footer */
   #Footer {
     width: 100%;
@@ -719,6 +730,7 @@ a img {
   header {
     position: relative;
     padding: 1em;
+    margin: 0px 0px 0px 0px;
     width: 100%;
     /* background: #287ED6; /* lightblue; */
     background: lightblue;
@@ -768,23 +780,6 @@ a img {
     background: transparent; /* lightgrey; */
     background: lightgrey;
     background: rgba(255,255,0,0.1);
-    /* background: lightgrey; */
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffff00+1,dddd00+100 */
-    /*
-    background: #ffff00;
-    background: -moz-linear-gradient(top, #dddd00 1%, #ffff00 100%);
-    background: -webkit-linear-gradient(top, #dddd00 1%,#ffff00 100%);
-    background: linear-gradient(to bottom, #dddd00 1%,#ffff00 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddd00', endColorstr='#ffff00',GradientType=0 );
-    */
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffff00+0,dddd00+100&0.1+0,0+100 */
-    /*
-    background: -moz-linear-gradient(top, rgba(255,255,0,0.9) 0%, rgba(255,255,0,0) 100%);
-    background: -webkit-linear-gradient(top, rgba(255,255,0,0.9) 0%,rgba(255,255,0,0) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,0,0.9) 0%,rgba(255,255,0,0) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1affff00', endColorstr='#00ffff00',GradientType=0 );
-    */
-
     flex: 1;
     padding: 1em;
     /* position: fixed; */
@@ -807,7 +802,7 @@ a img {
     flex: 0 0 33.3333%; /* 1; */
   }
   .peopleEntry {
-    flex: 0 0 20%; /* 1; */
+    flex: 0 0 33.3333%; /* 20%; /* 1; */
   }
 
   #Footer {
@@ -820,12 +815,11 @@ a img {
 
 @media (min-width: 1280px) {
 
-
   .resourceEntry {
     flex: 0 0 25%; /* 1; */
   }
   .peopleEntry {
-    flex: 0 0 12.5%; /* 1; */
+    flex: 0 0 25%; /* 12.5%; /* 1; */
   }
 }
 

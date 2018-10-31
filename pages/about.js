@@ -6,35 +6,31 @@ import PeopleEntry from '../components/PeopleEntry'
 
 const people = [
   {
+    thumb: '../static/images/people/CatPortrait.jpg',
+    name: 'Nathalia Novais',
+    desc: 'Bio tba ...',
+    link: ''
+  },
+  {
+    thumb: '../static/images/people/CatPortrait.jpg',
+    name: 'Tobias Stenberg Christensen',
+    desc: 'Bio tba ...',
+    link: ''
+  },
+  {
     thumb: '../static/images/people/WinnieSoon.jpg',
     name: 'Winnie Soon',
-    desc: 'Winnie (artist-researcher). Winnie Soon is an artist-researcher who resides in Hong Kong and Denmark. Her works explore themes/concepts around digital culture, specifically concerning internet censorship, data circulation, real-time processing, infrastructure and the culture of code practice. Winnie’s projects have been exhibited and presented internationally at museums, festivals, universities and conferences across Europe, Asia and America. Her current research focuses on exploratory and aesthetic programming, working on two books titled “Aesthetic Programming” (with Geoff Cox) and “Fix My Code” (with Cornelia Sollfrank). She is Assistant Professor at Aarhus University. More info: http://www.siusoon.net'
+    /*
+    desc: 'Winnie Soon is an artist-researcher who resides in Hong Kong and Denmark. Her works explore themes/concepts around digital culture, specifically concerning internet censorship, data circulation, real-time processing, infrastructure and the culture of code practice. Winnie’s projects have been exhibited and presented internationally at museums, festivals, universities and conferences across Europe, Asia and America. Her current research focuses on exploratory and aesthetic programming, working on two books titled “Aesthetic Programming” (with Geoff Cox) and “Fix My Code” (with Cornelia Sollfrank). She is Assistant Professor at Aarhus University.',*/
+    desc: 'Bio tba ...',
+    link: 'http://www.siusoon.net'
   },
   {
-    thumb: '../static/images/people/CatPortrait.jpg',
-    name: 'First Name, Last Name',
-    desc: 'Some short desciption here maybe?'
-  },
-  {
-    thumb: '../static/images/people/CatPortrait.jpg',
-    name: 'First Middle Last',
-    desc: 'Some short desciption here maybe?'
-  },
-  {
-    thumb: '../static/images/people/CatPortrait.jpg',
-    name: 'First Name of someone',
-    desc: 'Some short desciption here maybe?'
-  },
-  {
-    thumb: '../static/images/people/CatPortrait.jpg',
-    name: 'First Name, Last Name',
-    desc: 'Some short desciption here maybe?'
-  },
-  {
-    thumb: '../static/images/people/CatPortrait.jpg',
-    name: 'First Middle Last',
-    desc: 'Some short desciption here maybe?'
-  },    
+    thumb: '../static/images/people/AndersVisti.jpg',
+    name: 'Anders Visti',
+    desc: 'Visual artist working with code. Founder and co-editor of the publishing house * [asterisk] from 2002-12. Founder and editor of the printed web publication ‡ DobbeltDagger and initiator of !=null, a public forum for artists, researchers, developers and hackers using contemporary technology for creative expression and aesthetic inquiry',
+    link: 'https://andersvisti.dk'
+  } 
 ];
 
 export default () => (
@@ -45,10 +41,10 @@ export default () => (
         <p>PCD @ Aarhus 2019 is organised by:<br/>Nathalia Novais, Tobias Stenberg Christensen, Winnie Soon &amp; Anders Visti</p>
       </div>
       <div className="Grid-cell">
-        <p>Winnie Soon<br/>www.siusoon.net<br/>rwx@siusoon.net</p>
+        <p>Winnie Soon<br/><Link href="http://www.siusoon.net"><a target="_blank">www.siusoon.net</a></Link><br/>rwx@siusoon.net</p>
       </div>
       <div className="Grid-cell">
-        <p>Anders Visti<br/>https://andersvisti.dk<br/>andersvisti@gmail.com<br/>+45 60 63 02 84</p>
+        <p>Anders Visti<br/><Link href="https://andersvisti.dk"><a target="_blank">https://andersvisti.dk</a></Link><br/>andersvisti@gmail.com</p>
       </div>
     </div>
     <Title txt="People" />
