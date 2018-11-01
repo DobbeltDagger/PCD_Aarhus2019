@@ -8,21 +8,19 @@ const people = [
   {
     thumb: '../static/images/people/CatPortrait.jpg',
     name: 'Nathalia Novais',
-    desc: 'Bio tba ...',
-    link: ''
+    desc: 'Graphic designer, researcher and filmmaker-producer from Brazil based in Denmark. Currently a master student of the Information Studies program at Aarhus University. Some work available at ',
+    link: 'https://behance.net/nathnovais'
   },
   {
     thumb: '../static/images/people/CatPortrait.jpg',
     name: 'Tobias Stenberg Christensen',
-    desc: 'Bio tba ...',
-    link: ''
+    desc: 'Graphic designer and visual artist. Currently a master student of the Digital Design program at Aarhus University ',
+    link: 'http://tobiasstenberg.dk/'
   },
   {
     thumb: '../static/images/people/WinnieSoon.jpg',
     name: 'Winnie Soon',
-    /*
-    desc: 'Winnie Soon is an artist-researcher who resides in Hong Kong and Denmark. Her works explore themes/concepts around digital culture, specifically concerning internet censorship, data circulation, real-time processing, infrastructure and the culture of code practice. Winnie’s projects have been exhibited and presented internationally at museums, festivals, universities and conferences across Europe, Asia and America. Her current research focuses on exploratory and aesthetic programming, working on two books titled “Aesthetic Programming” (with Geoff Cox) and “Fix My Code” (with Cornelia Sollfrank). She is Assistant Professor at Aarhus University.',*/
-    desc: 'Bio tba ...',
+    desc: 'Artist-researcher examining the cultural implications of technologies in which computational processes and infrastructure underwrite our experiences, which are ever more programmed. Her current research focuses on aesthetic coding in the realm of software studies, working on two books titled “Aesthetic Programming” (w/ Geoff Cox) and “Fix My Code” (w/ Cornelia Sollfrank) ',
     link: 'http://www.siusoon.net'
   },
   {
