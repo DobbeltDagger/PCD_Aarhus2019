@@ -20125,13 +20125,39 @@ var people = [{
       lineNumber: 47
     },
     __self: this
-  }, "Winnie Soon / mail: rwx@siusoon.net", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, "Winnie Soon / ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "mailto:rwx@siusoon.net",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47
     },
     __self: this
-  }), "Anders Visti / mail: andersvisti@gmail.com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "mail: rwx@siusoon.net")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }), "Anders Visti / ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "mailto:andersvisti@gmail.com",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, "mail: andersvisti@gmail.com"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
     txt: "People",
     __source: {
       fileName: _jsxFileName,

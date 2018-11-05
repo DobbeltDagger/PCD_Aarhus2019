@@ -44,8 +44,8 @@ export default () => (
       </div>
       <div className="Grid-cell">
         <h2>Contact</h2><br/>
-        <p>Winnie Soon / mail: rwx@siusoon.net<br/>
-        Anders Visti / mail: andersvisti@gmail.com</p>
+        <p>Winnie Soon / <Link href="mailto:rwx@siusoon.net"><a>mail: rwx@siusoon.net</a></Link><br/>
+        Anders Visti / <Link href="mailto:andersvisti@gmail.com"><a>mail: andersvisti@gmail.com</a></Link></p>
       </div>
     </div>
     <Title txt="People" />
