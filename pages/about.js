@@ -37,16 +37,15 @@ const people = [
 
 export default () => (
   <Layout>
-    <Title txt="About" />
     <div className="Grid Grid--gutters Grid--full large-Grid--fit">
       <div className="Grid-cell">
-        <p>PCD @ Aarhus 2019 is organised by:<br/>Nathalia Novais, Tobias Stenberg Christensen, Winnie Soon &amp; Anders Visti</p>
+        <h2>About</h2><br/>
+        <p><b>PCD @Aarhus takes place Saturday, February 9th from 11.00-15.30 at DOKK1, Hack Kampmanns Pl. 2, 8000 Aarhus</b>. PCD @Aarhus is organised by Nathalia Novais, Tobias Stenberg Christensen, Winnie Soon &amp; Anders Visti</p>
       </div>
       <div className="Grid-cell">
-        <p>Winnie Soon<br/><Link href="http://www.siusoon.net"><a target="_blank">www.siusoon.net</a></Link><br/>rwx@siusoon.net</p>
-      </div>
-      <div className="Grid-cell">
-        <p>Anders Visti<br/><Link href="https://andersvisti.dk"><a target="_blank">https://andersvisti.dk</a></Link><br/>andersvisti@gmail.com</p>
+        <h2>Contact</h2><br/>
+        <p>Winnie Soon / mail: rwx@siusoon.net<br/>
+        Anders Visti / mail: andersvisti@gmail.com</p>
       </div>
     </div>
     <Title txt="People" />
