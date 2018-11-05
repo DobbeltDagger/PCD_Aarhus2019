@@ -11,21 +11,21 @@ const resources = [
     id: 0,
     thumb: '../static/images/resources/processing.jpg',
     name: 'Processing',
-    desc: 'some short description here',
+    desc: 'A flexible software sketchbook and a language for learning how to code within the context of the visual arts',
     link: 'https://processing.org/'
   },
   {
     id: 1,
     thumb: '../static/images/resources/p5.jpg',
     name: 'p5.js',
-    desc: 'some short description here',
+    desc: 'A javascript client-side library for creating graphic and interactive experiences, based on the core principles of Processing',
     link: 'https://p5js.org/'
   },
   {
     id: 2,
     thumb: '../static/images/resources/CodingTrain.jpg',
     name: 'Coding Train',
-    desc: 'some short description here',
+    desc: 'A YouTube channel dedicated to beginner-friendly creative coding tutorials and challenges',
     link: 'https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw' // youtube
   }
 ];

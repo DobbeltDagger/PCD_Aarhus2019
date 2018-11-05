@@ -640,7 +640,7 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_responsive_navbar__WEBPACK_IMPORTED_MODULE_2___default.a, {
         menuOpenButton: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_md__WEBPACK_IMPORTED_MODULE_3__["MdMenu"], {
-          size: 56,
+          size: 54,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 13
@@ -648,7 +648,7 @@ function (_Component) {
           __self: this
         }),
         menuCloseButton: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_md__WEBPACK_IMPORTED_MODULE_3__["MdClose"], {
-          size: 56,
+          size: 54,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 14
@@ -845,10 +845,9 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        id: "mapsource",
+        id: "mapSource",
         scrollwheel: "false",
         width: "100%",
-        height: "480px",
         frameBorder: "0",
         allowFullScreen: true,
         src: "https://umap.openstreetmap.fr/en/map/processing-community-day-worldwide-2019_254734?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=false&measureControl=false&editinosmControl=false",

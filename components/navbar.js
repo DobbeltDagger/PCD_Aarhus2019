@@ -10,8 +10,8 @@ class NavBar extends Component {
   render() {
     return (
       <ResponsiveMenu
-        menuOpenButton={<MdMenu size={56} />}
-        menuCloseButton={<MdClose size={56} />}
+        menuOpenButton={<MdMenu size={54} />}
+        menuCloseButton={<MdClose size={54} />}
         changeMenuOn="800px"
         largeMenuClassName="large-menu"
         smallMenuClassName="small-menu"

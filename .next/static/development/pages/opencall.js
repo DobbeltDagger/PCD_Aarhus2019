@@ -545,7 +545,7 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_responsive_navbar__WEBPACK_IMPORTED_MODULE_2__["default"], {
         menuOpenButton: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_md__WEBPACK_IMPORTED_MODULE_3__["MdMenu"], {
-          size: 56,
+          size: 54,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 13
@@ -553,7 +553,7 @@ function (_Component) {
           __self: this
         }),
         menuCloseButton: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_md__WEBPACK_IMPORTED_MODULE_3__["MdClose"], {
-          size: 56,
+          size: 54,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 14

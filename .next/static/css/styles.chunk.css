@@ -384,9 +384,9 @@ pre {
 }
 
 /* https://stackoverflow.com/questions/39736169/disable-map-scrolling-open-street-maps */
-#mapSource {
+/* #mapSource {
   pointer-events: none;
-}
+} */
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* SITE SPECIFIC styling ++++++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0px;
   font-weight: 700;
   font-style: normal;
-  line-height: 1.35em;
+  line-height: 1.2em; /* 1.35em; */
   /* color: rgba(0,0,0,0.7); */
   /* http://www.html-color-names.com/darkslateblue.php */
   color: #393743; /* #27214b; */
@@ -576,6 +576,11 @@ a img {
 /* media small */
 @media screen {
 
+  #mapSource {
+    width: 100%;
+    height: 250px;
+  }
+
   #pageWrapper {
     /* -webkit-box-orient: vertical;
     -webkit-box-direction: normal; */
@@ -590,15 +595,15 @@ a img {
     padding: 0.65em 0.65em 0.4em 0.65em; /* 0.5em 0.5em 0.25em 0.5em; */
     background: yellow; /* transparent; */
     margin-bottom: 1.75em; /* 1em; */
-    min-height: 80px; /* 90px; /* 75px; */
+    min-height: 76px; /* 80px; /* 90px; /* 75px; */
   }
   header #logo {
-    width: 92px; /* 100px; */
+    width: 90px; /* 100px; */
     height: auto;
     margin: 0px; /* 0px 0px 0.25em 0px; */
     /* margin: -0.75em 0px 0.25em -0.75em; */
     position: absolute; /* fixed; */
-    top: -0.25em; /* -0.075em; */
+    top: -0.3em; /* -0.25em; /* -0.075em; */
     left: -0.075em;
     opacity: 0.78;
     z-index: 1000;
@@ -721,7 +726,7 @@ a img {
     flex: 0 0 50%; /* 1; */
   }
   .peopleEntry {
-    flex: 0 0 33.3333%; /* 1; */
+    flex: 0 0 50%; /* 33.3333%; /* 1; */
   }
 
 }
@@ -730,6 +735,11 @@ a img {
 /* BREAK LARGE */
 
 @media (min-width: 800px) {
+
+  #mapSource {
+    width: 100%;
+    height: 480px;
+  }
 
   /* my stylings */
   #pageWrapper {
