@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -708,7 +708,7 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_responsive_navbar__WEBPACK_IMPORTED_MODULE_2___default.a, {
         menuOpenButton: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_md__WEBPACK_IMPORTED_MODULE_3__["MdMenu"], {
-          size: 64,
+          size: 56,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 13
@@ -716,7 +716,7 @@ function (_Component) {
           __self: this
         }),
         menuCloseButton: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_md__WEBPACK_IMPORTED_MODULE_3__["MdClose"], {
-          size: 64,
+          size: 56,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 14
@@ -1045,7 +1045,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!**********************************!*\
   !*** multi ./pages/resources.js ***!
   \**********************************/

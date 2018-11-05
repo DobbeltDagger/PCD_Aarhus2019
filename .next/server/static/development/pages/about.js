@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -728,7 +728,7 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_responsive_navbar__WEBPACK_IMPORTED_MODULE_2___default.a, {
         menuOpenButton: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_md__WEBPACK_IMPORTED_MODULE_3__["MdMenu"], {
-          size: 64,
+          size: 56,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 13
@@ -736,7 +736,7 @@ function (_Component) {
           __self: this
         }),
         menuCloseButton: react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_icons_md__WEBPACK_IMPORTED_MODULE_3__["MdClose"], {
-          size: 64,
+          size: 56,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 14
@@ -871,15 +871,15 @@ var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\about.js";
 
 
 var people = [{
-  thumb: '../static/images/people/CatPortrait.jpg',
-  name: 'Nathalia Novais',
-  desc: 'Graphic designer, researcher and filmmaker-producer from Brazil based in Denmark. Currently a master student of the Information Studies program at Aarhus University. Some work available at ',
-  link: 'https://behance.net/nathnovais'
-}, {
-  thumb: '../static/images/people/CatPortrait.jpg',
+  thumb: '../static/images/people/TobiasStenberg.jpg',
   name: 'Tobias Stenberg Christensen',
   desc: 'Graphic designer and visual artist. Currently a master student of the Digital Design program at Aarhus University ',
   link: 'http://tobiasstenberg.dk/'
+}, {
+  thumb: '../static/images/people/NathaliaNovais.jpg',
+  name: 'Nathalia Novais',
+  desc: 'Graphic designer, researcher and filmmaker-producer from Brazil based in Denmark. Currently a master student of the Information Studies program at Aarhus University. Some work available at ',
+  link: 'https://behance.net/nathnovais'
 }, {
   thumb: '../static/images/people/WinnieSoon.jpg',
   name: 'Winnie Soon',
@@ -1162,7 +1162,7 @@ var people = [{
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/

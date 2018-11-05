@@ -6,16 +6,16 @@ import PeopleEntry from '../components/PeopleEntry'
 
 const people = [
   {
-    thumb: '../static/images/people/CatPortrait.jpg',
-    name: 'Nathalia Novais',
-    desc: 'Graphic designer, researcher and filmmaker-producer from Brazil based in Denmark. Currently a master student of the Information Studies program at Aarhus University. Some work available at ',
-    link: 'https://behance.net/nathnovais'
-  },
-  {
-    thumb: '../static/images/people/CatPortrait.jpg',
+    thumb: '../static/images/people/TobiasStenberg.jpg',
     name: 'Tobias Stenberg Christensen',
     desc: 'Graphic designer and visual artist. Currently a master student of the Digital Design program at Aarhus University ',
     link: 'http://tobiasstenberg.dk/'
+  },
+  {
+    thumb: '../static/images/people/NathaliaNovais.jpg',
+    name: 'Nathalia Novais',
+    desc: 'Graphic designer, researcher and filmmaker-producer from Brazil based in Denmark. Currently a master student of the Information Studies program at Aarhus University. Some work available at ',
+    link: 'https://behance.net/nathnovais'
   },
   {
     thumb: '../static/images/people/WinnieSoon.jpg',
