@@ -383,6 +383,11 @@ pre {
   border: none; /* 2px solid #555555; */
 }
 
+/* https://stackoverflow.com/questions/39736169/disable-map-scrolling-open-street-maps */
+#mapSource {
+  pointer-events: none;
+}
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* SITE SPECIFIC styling ++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
