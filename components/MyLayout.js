@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Header from './Header'
 import SubHeader from './SubHeader'
 import Footer from './Footer'
-// import "../static/css/font.css"
 import "../static/css/reset.css"
 import "../static/css/grid.css"
 import "../static/css/style.css"
