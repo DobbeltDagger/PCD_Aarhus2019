@@ -654,7 +654,7 @@ a img {
   /* navbar small-menu */
   header .small-menu ul {
     text-align: right;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 0px; /* 1px solid rgba(0,0,0,0.2); */
     margin-bottom: 0.25em; /* 0px; /* 1em; */
   }
   header .small-menu ul li {
