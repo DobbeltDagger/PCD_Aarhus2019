@@ -19,7 +19,7 @@ class Index extends Component {
       <Layout>
         <div className="Grid Grid--gutters Grid--full large-Grid--fit">
           <div className="Grid-cell">
-            <iframe id="mapsource" scrollWheel="false" width="100%" height="480px" frameBorder="0" allowFullScreen src="https://umap.openstreetmap.fr/en/map/processing-community-day-worldwide-2019_254734?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=false&measureControl=false&editinosmControl=false"></iframe>
+            <iframe id="mapsource" scrollwheel="false" width="100%" height="480px" frameBorder="0" allowFullScreen src="https://umap.openstreetmap.fr/en/map/processing-community-day-worldwide-2019_254734?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=false&measureControl=false&editinosmControl=false"></iframe>
           </div>
         </div>
         <Title txt="Processing Community Day @Worldwide" />

@@ -4,7 +4,7 @@ import Link from 'next/link'
 // https://nextjs.org/learn/basics/styling-components/no-effect-for-nested-components
 
 const ResourceEntry = (props) => (
-  <div className="resourceEntry">    
+  <div className="resourceEntry" id={props.id}>    
     <span className="thumb">
       <Link href={props.link}>
         <a target="_blank">

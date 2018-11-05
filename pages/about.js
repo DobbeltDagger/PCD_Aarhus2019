@@ -6,24 +6,28 @@ import PeopleEntry from '../components/PeopleEntry'
 
 const people = [
   {
+    key: 0,
     thumb: '../static/images/people/TobiasStenberg.jpg',
     name: 'Tobias Stenberg Christensen',
     desc: 'Graphic designer and visual artist. Currently a master student of the Digital Design program at Aarhus University ',
     link: 'http://tobiasstenberg.dk/'
   },
   {
+    key: 1,
     thumb: '../static/images/people/NathaliaNovais.jpg',
     name: 'Nathalia Novais',
     desc: 'Graphic designer, researcher and filmmaker-producer from Brazil based in Denmark. Currently a master student of the Information Studies program at Aarhus University. Some work available at ',
     link: 'https://behance.net/nathnovais'
   },
   {
+    key: 2,
     thumb: '../static/images/people/WinnieSoon.jpg',
     name: 'Winnie Soon',
     desc: 'Artist-researcher examining the cultural implications of technologies in which computational processes and infrastructure underwrite our experiences, which are ever more programmed. Her current research focuses on aesthetic coding in the realm of software studies, working on two books titled “Aesthetic Programming” (w/ Geoff Cox) and “Fix My Code” (w/ Cornelia Sollfrank) ',
     link: 'http://www.siusoon.net'
   },
   {
+    key: 3,
     thumb: '../static/images/people/AndersVisti.jpg',
     name: 'Anders Visti',
     desc: 'Visual artist working with code. Founder and co-editor of the publishing house * [asterisk] from 2002-12. Founder and editor of the printed web publication ‡ DobbeltDagger and initiator of !=null, a public forum for artists, researchers, developers and hackers using contemporary technology for creative expression and aesthetic inquiry',
@@ -49,8 +53,7 @@ export default () => (
     <div className="peopleWrapper">
       {people.map( function(pe, i) {
         return <PeopleEntry
-          key={pe.id}
-          id={pe.id}
+          key={pe.key}
           name={pe.name}
           desc={pe.desc}
           link={pe.link}

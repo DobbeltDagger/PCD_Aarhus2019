@@ -66,7 +66,6 @@ class Program extends Component {
         {prgJson.map( function(pe, i) {
           return <ProgramEntry
             key={pe.id}
-            id={pe.id}
             title={pe.title}
             lead={pe.lead}
             desc={pe.desc}

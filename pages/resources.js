@@ -8,18 +8,21 @@ import ResourceEntry from '../components/ResourceEntry'
 // resource array with images
 const resources = [
   {
+    id: 0,
     thumb: '../static/images/resources/processing.jpg',
     name: 'Processing',
     desc: 'some short description here',
     link: 'https://processing.org/'
   },
   {
+    id: 1,
     thumb: '../static/images/resources/p5.jpg',
     name: 'p5.js',
     desc: 'some short description here',
     link: 'https://p5js.org/'
   },
   {
+    id: 2,
     thumb: '../static/images/resources/CodingTrain.jpg',
     name: 'Coding Train',
     desc: 'some short description here',
@@ -41,7 +44,6 @@ class Program extends Component {
         <div className="resourceWrapper">
           {resources.map( function(re, i) {
             return <ResourceEntry
-              key={re.id}
               id={re.id}
               name={re.name}
               desc={re.desc}

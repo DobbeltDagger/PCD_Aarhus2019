@@ -4,7 +4,7 @@ import Link from 'next/link'
 // https://nextjs.org/learn/basics/styling-components/no-effect-for-nested-components
 
 const ProgramEntry = (props) => (
-  <div className="programEntry">
+  <div className="programEntry" id={props.key}>
     <span className="timeWrapper">{props.time}</span>
     <span className="lead">{props.lead}</span>
     <span className="title">{props.title}</span>
