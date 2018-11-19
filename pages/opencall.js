@@ -10,7 +10,6 @@ export default () => (
         <img src="../static/images/openCall.png" className="fitColumn"/>
       </div>
     </div>
-    <br/>
     <div className="Grid Grid--gutters Grid--full large-Grid--fit">
       <div className="Grid-cell">
         <p>PCD @ Aarhus is now looking for artists/designers/creative practitioners/computer scientists/amateurs or basically anyone who has an interest in code and would like to show and tell your software-based project. We are aiming at having 15 people for the show and tell session, and each presenter will give a max of 15 mins presentation. The project can be something very simple and fun from basic geometry to complex interactive sketches across disciplines.</p>
