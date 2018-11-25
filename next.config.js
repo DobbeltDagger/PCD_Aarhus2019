@@ -9,7 +9,8 @@ module.exports = withCSS({
       '/about': { page: '/about' },
       '/opencall': { page: '/opencall'},
       '/program': { page: '/program'},
-      '/resources': { page: '/resources'}
+      '/resources': { page: '/resources'},
+      '/whycode': { page: '/whycode'}
     }
   }
 })
