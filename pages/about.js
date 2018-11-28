@@ -47,6 +47,14 @@ const people = [
   },
   {
     key: 5,
+    thumb: '../static/images/people/LaurenMcCarthy.jpg',
+    name: 'Lauren Lee McCarthy',
+    desc: 'Lauren (US) is the creator of p5.js, an open source platform for learning creative expression. As an artist, her work has been exhibited internationally, examining how issues of surveillance, automation, and network culture affect our social relationships. She is an Assistant Professor at UCLA Design Media Arts',
+    link: 'http://lauren-mccarthy.com/',
+    whyCode: ''
+  },
+  {
+    key: 6,
     thumb: '../static/images/people/WinnieSoon.jpg',
     name: 'Winnie Soon',
     desc: 'Artist-researcher examining the cultural implications of technologies in which computational processes and infrastructure underwrite our experiences, which are ever more programmed. Her current research focuses on aesthetic coding in the realm of software studies, working on two books titled “Aesthetic Programming” (w/ Geoff Cox) and “Fix My Code” (w/ Cornelia Sollfrank) ',
@@ -54,7 +62,7 @@ const people = [
     whyCode: ''
   },
   {
-    key: 6,
+    key: 7,
     thumb: '../static/images/people/TobiasStenberg.jpg',
     name: 'Tobias Stenberg Christensen',
     desc: 'Graphic designer and visual artist. Currently a master student of the Digital Design program at Aarhus University',
@@ -62,7 +70,7 @@ const people = [
     whyCode: ''
   },
   {
-    key: 7,
+    key: 8,
     thumb: '../static/images/people/AndersVisti.jpg',
     name: 'Anders Visti',
     desc: 'Visual artist working with code. Founder and co-editor of the publishing house * [asterisk] from 2002-12. Founder and editor of the printed web publication ‡ DobbeltDagger and initiator of !=null, a public forum for artists, researchers, developers and hackers using contemporary technology for creative expression and aesthetic inquiry',

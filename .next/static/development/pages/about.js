@@ -20085,20 +20085,27 @@ var people = [{
   whyCode: ''
 }, {
   key: 5,
+  thumb: '../static/images/people/LaurenMcCarthy.jpg',
+  name: 'Lauren Lee McCarthy',
+  desc: 'Lauren (US) is the creator of p5.js, an open source platform for learning creative expression. As an artist, her work has been exhibited internationally, examining how issues of surveillance, automation, and network culture affect our social relationships. She is an Assistant Professor at UCLA Design Media Arts',
+  link: 'http://lauren-mccarthy.com/',
+  whyCode: ''
+}, {
+  key: 6,
   thumb: '../static/images/people/WinnieSoon.jpg',
   name: 'Winnie Soon',
   desc: 'Artist-researcher examining the cultural implications of technologies in which computational processes and infrastructure underwrite our experiences, which are ever more programmed. Her current research focuses on aesthetic coding in the realm of software studies, working on two books titled “Aesthetic Programming” (w/ Geoff Cox) and “Fix My Code” (w/ Cornelia Sollfrank) ',
   link: 'http://www.siusoon.net',
   whyCode: ''
 }, {
-  key: 6,
+  key: 7,
   thumb: '../static/images/people/TobiasStenberg.jpg',
   name: 'Tobias Stenberg Christensen',
   desc: 'Graphic designer and visual artist. Currently a master student of the Digital Design program at Aarhus University',
   link: 'http://tobiasstenberg.dk/',
   whyCode: ''
 }, {
-  key: 7,
+  key: 8,
   thumb: '../static/images/people/AndersVisti.jpg',
   name: 'Anders Visti',
   desc: 'Visual artist working with code. Founder and co-editor of the publishing house * [asterisk] from 2002-12. Founder and editor of the printed web publication ‡ DobbeltDagger and initiator of !=null, a public forum for artists, researchers, developers and hackers using contemporary technology for creative expression and aesthetic inquiry',
@@ -20109,116 +20116,116 @@ var people = [{
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 83
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Grid Grid--gutters Grid--full large-Grid--fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Grid-cell",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77
+      lineNumber: 85
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 86
     },
     __self: this
   }, "About"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 86
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 87
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 87
     },
     __self: this
   }, "PCD @Aarhus takes place Saturday, February 9th from 11.00-15.30 at DOKK1, Hack Kampmanns Pl. 2, 8000 Aarhus"), ". PCD @Aarhus is organised by Nathalia Novais, Tobias Stenberg Christensen, Winnie Soon & Anders Visti")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Grid-cell",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 89
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 90
     },
     __self: this
   }, "Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 90
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 91
     },
     __self: this
   }, "Winnie Soon / ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "mailto:rwx@siusoon.net",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 91
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 91
     },
     __self: this
   }, "mail: rwx@siusoon.net")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 91
     },
     __self: this
   }), "Anders Visti / ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "mailto:andersvisti@gmail.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 92
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 92
     },
     __self: this
   }, "mail: andersvisti@gmail.com"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
     txt: "People",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 95
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "peopleWrapper",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 96
     },
     __self: this
   }, people.map(function (pe, i) {
@@ -20231,7 +20238,7 @@ var people = [{
       whyCode: pe.whyCode,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 90
+        lineNumber: 98
       },
       __self: this
     });
@@ -20239,87 +20246,87 @@ var people = [{
     txt: "Partnerships",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100
+      lineNumber: 108
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Grid Grid--gutters Grid--full large-Grid--fit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 109
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "Grid-cell",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 110
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 111
     },
     __self: this
   }, "The event is supported by:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103
+      lineNumber: 111
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "https://notnull.andersvisti.dk/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 112
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 112
     },
     __self: this
   }, "!=null")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 112
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "http://cc.au.dk/en/about-the-school/departments/digital-design-and-information-studies/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 113
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 113
     },
     __self: this
   }, "Department of Digital Design and Information Studies, Aarhus University")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 113
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "https://dokk1.dk/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 114
     },
     __self: this
   }, "DOKK1, Aarhus Public Library"))))));
@@ -20346,7 +20353,7 @@ var people = [{
 
 /***/ }),
 
-/***/ 11:
+/***/ 9:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -20371,5 +20378,5 @@ module.exports = dll_9c26f521c5881a249bdd;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]));;
+},[[9,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=about.js.map
