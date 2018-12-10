@@ -45,7 +45,14 @@ class Program extends Component {
     return (
       <Layout>
         <Title txt="Program" />
-        <p>To be announced ...</p>       
+        <p>To be announced ...</p>
+        <p>Presenters so far:<br/>
+        Ester Marie Aagard<br/>
+        Andreja Andric<br/>
+        Malthe Stavning Erslev<br/>
+        Stig Møller Hansen<br/>
+        Lauren Lee McCarthy<br/>
+        </p>
       </Layout>
     )
   }

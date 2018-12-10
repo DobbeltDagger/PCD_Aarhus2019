@@ -7,7 +7,7 @@ const PeopleEntry = (props) => (
   <div className="peopleEntry" id={props.key}>    
     <span className="thumb">
       <Link href={props.link}>
-        <a target="_blank">
+        <a target={props.newWindow}>
           <img src={props.thumb} />
         </a>
       </Link>
@@ -16,7 +16,7 @@ const PeopleEntry = (props) => (
     <span className="desc">{props.desc}</span>
     <span>
       <Link href={props.link}>
-        <a target="_blank">{props.link}</a>
+        <a target={props.newWindow}>{props.link}</a>
       </Link>
     </span>
   </div>
