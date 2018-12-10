@@ -26,8 +26,8 @@ const people = [
     thumb: '../static/images/people/AnnaBrynskov.jpg',
     name: 'Anna Brynskov',
     desc: 'Anna Brynskov is studying her master’s degree in Digital Design at Aarhus University. She has her bachelor’s degree in Literary History, and before starting university, she wrote and directed films. She has a particular interest in storytelling, language and technology, and enjoys exploring themes like power relations, sexuality and alienation',
-    link: '',
-    newWindow: ''
+    link: 'https://vimeo.com/annabrynskov',
+    newWindow: '_blank'
   },
   {
     key: 3,
