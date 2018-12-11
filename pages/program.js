@@ -51,6 +51,8 @@ class Program extends Component {
         Andreja Andric<br/>
         Malthe Stavning Erslev<br/>
         Stig Møller Hansen<br/>
+        Ann Karring<br/>
+        Tilde LD<br/>
         Lauren Lee McCarthy<br/>
         </p>
       </Layout>
