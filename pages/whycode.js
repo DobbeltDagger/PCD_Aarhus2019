@@ -25,6 +25,12 @@ const whyCodes = [
   },
   {
     key: 3,
+    thumb: '../static/images/people/AnnKarring.jpg',
+    name: 'Ann Karring',
+    whyCode: 'To me coding is a way to express myself. Whether it is personal or global issues, coding helps me reflect on these issues. I also use it as a tool of communication, so I can share my views with others'
+  },
+  {
+    key: 4,
     thumb: '../static/images/people/MarkPoulsen.jpg',
     name: 'Mark Staun Poulsen',
     whyCode: 'A year ago, I would have flinched at the mere sight of code. However now, having experienced the potential of computation and creative practices, I highly regard, and seek to understand, the use of code and computation in the art, storytelling and interactive design that I encounter every day. At the same time, code underwrites so many aspects of contemporary digital living – in multifaceted ways. This often makes me cautious and uneasy. It ultimately forces me to consider and reflect on my role as a programmer and the code I can contribute to the rest of the world. Code does matter, and as a student at Digital Design at Aarhus University I have a unique chance to explore meaning and consequences of computation in light of a creative and practical engagement with programming.'
