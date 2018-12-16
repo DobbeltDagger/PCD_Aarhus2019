@@ -407,8 +407,6 @@ body {
   padding: 0px;
   font-size: 16px; /* 19px; */
   line-height: 23px; /* 1.4210em; */
-  /* color: rgba(0,0,0,0.75); /* 82); /* #363333; */
-  /* http://www.html-color-names.com/darkslateblue.php */
   color: #201b3f;
   font-weight: 400;
   overflow-y: scroll;
@@ -618,13 +616,13 @@ a img {
   /* header */
   header {
     flex: 1;
-    padding: 0.65em 0.65em 0.4em 0.65em; /* 0.5em 0.5em 0.25em 0.5em; */
+    padding: 0.65em 0.65em 0.2em 0.65em; /* 0.65em 0.65em 0.4em 0.65em; */
     background: yellow; /* transparent; */
     margin-bottom: 1.75em; /* 1em; */
-    min-height: 76px; /* 80px; /* 90px; /* 75px; */
+    min-height: 72px; /* 76px; */
   }
   header #logo {
-    width: 90px; /* 100px; */
+    width: 88px; /* 90px; /* 100px; */
     height: auto;
     margin: 0px; /* 0px 0px 0.25em 0px; */
     /* margin: -0.75em 0px 0.25em -0.75em; */
@@ -698,7 +696,6 @@ a img {
     line-height: 34px; /* 32px; */
     font-weight: 500; /* 700; */
     color: #333;
-    /* font-family: 'Times New Roman', Times, serif; */
     font-family: 'EB Garamond', serif;
     text-transform: capitalize;
   }
@@ -707,8 +704,7 @@ a img {
     /* display: none; */
     text-align: right !important;
     margin-top: 0px; /* -0.45em; */
-    /* margin-right: -7px; */
-    opacity: 0.87;
+    opacity: 0.82; /* 0.87; */
   }
 
   .resourceEntry,
@@ -848,11 +844,35 @@ a img {
   }
 
   main#MainContent {
-    flex: 4;
+    flex: 3; /* 4; */
     width: 100%;
     /* background: transparent; /* burlywood;*/
     background: lightgrey; /* tomato; */
     padding: 1em;
+  }
+
+  .resourceEntry {
+    flex: 0 0 50%; /* 33.3333%; /* 1; */
+  }
+  .peopleEntry {
+    flex: 0 0 50%; /* 33.3333%; /* 20%; /* 1; */
+  }
+  .whyCodeEntry {
+    flex: 0 0 100%; /* 50%; */
+  }
+
+  #Footer {
+    display: none;
+  }
+  
+}
+
+
+/* larger */
+@media (min-width: 1024px) {
+
+  main#MainContent {
+    flex: 4;
   }
 
   .resourceEntry {
@@ -865,16 +885,14 @@ a img {
     flex: 0 0 50%;
   }
 
-  #Footer {
-    display: none;
-  }
-  
 }
 
 
-
 @media (min-width: 1280px) {
-
+  
+  main#MainContent {
+    flex: 5;
+  }
   .resourceEntry {
     flex: 0 0 25%; /* 1; */
   }

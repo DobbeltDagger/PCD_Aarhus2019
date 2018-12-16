@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -943,8 +943,8 @@ var people = [{
   thumb: '../static/images/people/FrederikLaCour.jpg',
   name: 'Frederik la Cour',
   desc: 'Digital Design student at Aarhus University, Sound & Media Artist. Attended the course on Aesthetic Programming, where he learned how to perceive code as a material for critical reflection on conceptual matters. Coupling his appreciation for aesthetic programming with his passion for audio-design and electronic music, has installed a new perception on sound experimentation.',
-  link: '',
-  newWindow: ''
+  link: 'https://vimeo.com/l4cour',
+  newWindow: '_blank'
 }, {
   key: 7,
   thumb: '../static/images/people/NathaliaNovais.jpg',
@@ -1244,7 +1244,7 @@ var people = [{
 
 /***/ }),
 
-/***/ 5:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/

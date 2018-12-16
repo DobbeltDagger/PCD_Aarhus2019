@@ -20095,8 +20095,8 @@ var people = [{
   thumb: '../static/images/people/FrederikLaCour.jpg',
   name: 'Frederik la Cour',
   desc: 'Digital Design student at Aarhus University, Sound & Media Artist. Attended the course on Aesthetic Programming, where he learned how to perceive code as a material for critical reflection on conceptual matters. Coupling his appreciation for aesthetic programming with his passion for audio-design and electronic music, has installed a new perception on sound experimentation.',
-  link: '',
-  newWindow: ''
+  link: 'https://vimeo.com/l4cour',
+  newWindow: '_blank'
 }, {
   key: 7,
   thumb: '../static/images/people/NathaliaNovais.jpg',
@@ -20382,7 +20382,7 @@ var people = [{
 
 /***/ }),
 
-/***/ 10:
+/***/ 9:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -20407,5 +20407,5 @@ module.exports = dll_9c26f521c5881a249bdd;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]));;
+},[[9,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=about.js.map
