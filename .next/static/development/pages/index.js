@@ -20197,7 +20197,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 13:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -20222,5 +20222,5 @@ module.exports = dll_9c26f521c5881a249bdd;
 
 /***/ })
 
-},[[13,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map

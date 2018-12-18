@@ -625,7 +625,6 @@ a img {
     width: 88px; /* 90px; /* 100px; */
     height: auto;
     margin: 0px; /* 0px 0px 0.25em 0px; */
-    /* margin: -0.75em 0px 0.25em -0.75em; */
     position: absolute; /* fixed; */
     top: -0.3em; /* -0.25em; /* -0.075em; */
     left: -0.075em;
@@ -634,6 +633,7 @@ a img {
   }
   header #logo a {
     display: block;
+    width: 100%;
     float: left;  
   }
   header #logo a img {
