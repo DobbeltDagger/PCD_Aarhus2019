@@ -27,6 +27,13 @@ const resources = [
     name: 'Coding Train',
     desc: 'A YouTube channel dedicated to beginner-friendly creative coding tutorials and challenges',
     link: 'https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw' // youtube
+  },
+  {
+    id: 3,
+    thumb: '../static/images/resources/ProcessingFoundation.jpg',
+    name: 'Processing Foundation',
+    desc: 'Empowering people of all interests and backgrounds to learn how to program',
+    link: 'https://processingfoundation.org/' // p foundation
   }
 ];
 

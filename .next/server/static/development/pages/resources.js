@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -495,6 +495,82 @@ var Layout = function Layout(props) {
 
 /***/ }),
 
+/***/ "./components/ResourceEntry.js":
+/*!*************************************!*\
+  !*** ./components/ResourceEntry.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\ResourceEntry.js";
+
+ // styled jsx for props in css
+// https://nextjs.org/learn/basics/styling-components/no-effect-for-nested-components
+
+var ResourceEntry = function ResourceEntry(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "resourceEntry",
+    id: props.id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "thumb",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: props.link,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    target: "_blank",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: props.thumb,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, props.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "desc",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, props.desc));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ResourceEntry);
+
+/***/ }),
+
 /***/ "./components/SubHeader.js":
 /*!*********************************!*\
   !*** ./components/SubHeader.js ***!
@@ -576,54 +652,6 @@ var Title = function Title(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Title);
-
-/***/ }),
-
-/***/ "./components/WhyCodeEntry.js":
-/*!************************************!*\
-  !*** ./components/WhyCodeEntry.js ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\WhyCodeEntry.js";
-
- // styled jsx for props in css
-// https://nextjs.org/learn/basics/styling-components/no-effect-for-nested-components
-
-var WhyCodeEntry = function WhyCodeEntry(props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "whyCodeEntry",
-    id: props.key,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "name",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, props.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "whyCode",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, props.whyCode));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (WhyCodeEntry);
 
 /***/ }),
 
@@ -825,90 +853,197 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./pages/whycode.js":
-/*!**************************!*\
-  !*** ./pages/whycode.js ***!
-  \**************************/
+/***/ "./pages/resources.js":
+/*!****************************!*\
+  !*** ./pages/resources.js ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
-/* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Title */ "./components/Title.js");
-/* harmony import */ var _components_WhyCodeEntry__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/WhyCodeEntry */ "./components/WhyCodeEntry.js");
-var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\whycode.js";
-
-// pages/about.js
-
-
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
+/* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Title */ "./components/Title.js");
+/* harmony import */ var _components_ResourceEntry__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/ResourceEntry */ "./components/ResourceEntry.js");
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\resources.js";
 
 
-var whyCodes = [{
-  key: 0,
-  thumb: '../static/images/people/EsterMarieAagard.jpg',
-  name: 'Ester Marie Aagard',
-  whyCode: 'The software we use can influence our life in many ways, some we are aware of and some which are hidden. I want to understand the hidden parts as data-tracking, the way in which different software’s are programmed and so forth. And in my projects, I try to visualize the hidden parts to try to make people reflect upon them. Therefore, I use coding both to understand and explain the software that we use'
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+// pages/resources.js
+
+
+
+
+ // resource array with images
+
+var resources = [{
+  id: 0,
+  thumb: '../static/images/resources/processing.jpg',
+  name: 'Processing',
+  desc: 'A flexible software sketchbook and a language for learning how to code within the context of the visual arts',
+  link: 'https://processing.org/'
 }, {
-  key: 1,
-  thumb: '../static/images/people/AndrejaAndric.jpg',
-  name: 'Andreja Andric',
-  whyCode: 'I subscribe to the Pythagorean idea that numbers are behind everything. With this in mind, coding helps me connect to the hidden side of the world and is a form of contemplative action'
+  id: 1,
+  thumb: '../static/images/resources/p5.jpg',
+  name: 'p5.js',
+  desc: 'A javascript client-side library for creating graphic and interactive experiences, based on the core principles of Processing',
+  link: 'https://p5js.org/'
 }, {
-  key: 2,
-  thumb: '../static/images/people/MalteStavningErslev.jpg',
-  name: 'Malthe Stavning Erslev',
-  whyCode: 'I am interested in coding because it inspires me and enables me to think trough conceptual ideas, notions, concerns etc. I will often start out with a vague idea of a concept that I want to explore, and the practice of coding will ‘take’ me somewhere I did not anticipate. I like to remain open and curious as to what reveals itself as being interesting, troubling or surprising when coding. As such, coding is not only a constructive practice for me (where the goal is working software), but is as much a practice of knowledge development. I mostly explore concepts related to words, language and literature, and my practice often results in a rough sketch or proof-of-concept – hence I refer to my practice as ‘conceptual software design’'
+  id: 2,
+  thumb: '../static/images/resources/CodingTrain.jpg',
+  name: 'Coding Train',
+  desc: 'A YouTube channel dedicated to beginner-friendly creative coding tutorials and challenges',
+  link: 'https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw' // youtube
+
 }, {
-  key: 3,
-  thumb: '../static/images/people/AnnKarring.jpg',
-  name: 'Ann Karring',
-  whyCode: 'To me coding is a way to express myself. Whether it is personal or global issues, coding helps me reflect on these issues. I also use it as a tool of communication, so I can share my views with others'
-}, {
-  key: 4,
-  thumb: '../static/images/people/MarkPoulsen.jpg',
-  name: 'Mark Staun Poulsen',
-  whyCode: 'A year ago, I would have flinched at the mere sight of code. However now, having experienced the potential of computation and creative practices, I highly regard, and seek to understand, the use of code and computation in the art, storytelling and interactive design that I encounter every day. At the same time, code underwrites so many aspects of contemporary digital living – in multifaceted ways. This often makes me cautious and uneasy. It ultimately forces me to consider and reflect on my role as a programmer and the code I can contribute to the rest of the world. Code does matter, and as a student at Digital Design at Aarhus University I have a unique chance to explore meaning and consequences of computation in light of a creative and practical engagement with programming.'
+  id: 3,
+  thumb: '../static/images/resources/ProcessingFoundation.jpg',
+  name: 'Processing Foundation',
+  desc: 'Empowering people of all interests and backgrounds to learn how to program',
+  link: 'https://processingfoundation.org/' // p foundation
+
 }];
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    txt: "\u201CWhy are you interested in coding?\u201D",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "WhyCodeWrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, whyCodes.map(function (wc, i) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WhyCodeEntry__WEBPACK_IMPORTED_MODULE_4__["default"], {
-      key: wc.key,
-      name: wc.name,
-      thumb: wc.thumb,
-      whyCode: wc.whyCode,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 45
-      },
-      __self: this
-    });
-  })));
-});
+
+var Program =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Program, _Component);
+
+  function Program(props) {
+    var _this;
+
+    _classCallCheck(this, Program);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Program).call(this, props));
+    _this.state = {};
+    return _this;
+  }
+
+  _createClass(Program, [{
+    key: "render",
+    value: function render() {
+      // some code here
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        txt: "Resource links",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-1172490371" + " " + "resourceWrapper",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        },
+        __self: this
+      }, resources.map(function (re, i) {
+        return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_ResourceEntry__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          id: re.id,
+          name: re.name,
+          desc: re.desc,
+          link: re.link,
+          thumb: re.thumb,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 53
+          },
+          __self: this
+        });
+      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+        className: "jsx-1172490371",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        txt: "Additional resources",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-1172490371" + " " + "Grid Grid--gutters Grid--full large-Grid--fit",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-1172490371" + " " + "Grid-cell",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 65
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "jsx-1172490371" + " " + "padlet-embed",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 66
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+        className: "jsx-1172490371",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("iframe", {
+        src: "https://padlet.com/embed/69nef43cadri",
+        frameBorder: "0",
+        allow: "camera;microphone;geolocation",
+        className: "jsx-1172490371",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 68
+        },
+        __self: this
+      }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+        styleId: "1172490371",
+        css: ".padlet-embed.jsx-1172490371{border-radius:2px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4;}.padlet-embed.jsx-1172490371 p.jsx-1172490371{padding:0;margin:0;}.padlet-embed.jsx-1172490371 iframe.jsx-1172490371{width:100%;height:608px;display:block;float:left;padding:0;margin:0;overflow-x:hidden;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxQQ0RfQUFSSFVTX055dERlc2lnblxccGFnZXNcXHJlc291cmNlcy5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF3RW9CLEFBRytCLEFBVVIsQUFJQSxVQUhELENBSUksT0FkaUIsQ0FXaEMsS0FJZ0IsY0FDSCxVQWZnQixDQWdCbEIsVUFDRCxTQUNTLE9BakJLLFdBa0J4QixXQWpCa0IsZ0JBQ0Usa0JBQ1AsV0FDUSxtQkFDckIiLCJmaWxlIjoiQzpcXHhhbXBwXFxodGRvY3NcXFBDRF9BQVJIVVNfTnl0RGVzaWduXFxwYWdlc1xccmVzb3VyY2VzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gcGFnZXMvcmVzb3VyY2VzLmpzXHJcbmltcG9ydCB7Q29tcG9uZW50fSBmcm9tICdyZWFjdCdcclxuaW1wb3J0IHt3aXRoUm91dGVyfSBmcm9tICduZXh0L3JvdXRlcidcclxuaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL015TGF5b3V0LmpzJ1xyXG5pbXBvcnQgVGl0bGUgZnJvbSAnLi4vY29tcG9uZW50cy9UaXRsZSdcclxuaW1wb3J0IFJlc291cmNlRW50cnkgZnJvbSAnLi4vY29tcG9uZW50cy9SZXNvdXJjZUVudHJ5J1xyXG5cclxuLy8gcmVzb3VyY2UgYXJyYXkgd2l0aCBpbWFnZXNcclxuY29uc3QgcmVzb3VyY2VzID0gW1xyXG4gIHtcclxuICAgIGlkOiAwLFxyXG4gICAgdGh1bWI6ICcuLi9zdGF0aWMvaW1hZ2VzL3Jlc291cmNlcy9wcm9jZXNzaW5nLmpwZycsXHJcbiAgICBuYW1lOiAnUHJvY2Vzc2luZycsXHJcbiAgICBkZXNjOiAnQSBmbGV4aWJsZSBzb2Z0d2FyZSBza2V0Y2hib29rIGFuZCBhIGxhbmd1YWdlIGZvciBsZWFybmluZyBob3cgdG8gY29kZSB3aXRoaW4gdGhlIGNvbnRleHQgb2YgdGhlIHZpc3VhbCBhcnRzJyxcclxuICAgIGxpbms6ICdodHRwczovL3Byb2Nlc3Npbmcub3JnLydcclxuICB9LFxyXG4gIHtcclxuICAgIGlkOiAxLFxyXG4gICAgdGh1bWI6ICcuLi9zdGF0aWMvaW1hZ2VzL3Jlc291cmNlcy9wNS5qcGcnLFxyXG4gICAgbmFtZTogJ3A1LmpzJyxcclxuICAgIGRlc2M6ICdBIGphdmFzY3JpcHQgY2xpZW50LXNpZGUgbGlicmFyeSBmb3IgY3JlYXRpbmcgZ3JhcGhpYyBhbmQgaW50ZXJhY3RpdmUgZXhwZXJpZW5jZXMsIGJhc2VkIG9uIHRoZSBjb3JlIHByaW5jaXBsZXMgb2YgUHJvY2Vzc2luZycsXHJcbiAgICBsaW5rOiAnaHR0cHM6Ly9wNWpzLm9yZy8nXHJcbiAgfSxcclxuICB7XHJcbiAgICBpZDogMixcclxuICAgIHRodW1iOiAnLi4vc3RhdGljL2ltYWdlcy9yZXNvdXJjZXMvQ29kaW5nVHJhaW4uanBnJyxcclxuICAgIG5hbWU6ICdDb2RpbmcgVHJhaW4nLFxyXG4gICAgZGVzYzogJ0EgWW91VHViZSBjaGFubmVsIGRlZGljYXRlZCB0byBiZWdpbm5lci1mcmllbmRseSBjcmVhdGl2ZSBjb2RpbmcgdHV0b3JpYWxzIGFuZCBjaGFsbGVuZ2VzJyxcclxuICAgIGxpbms6ICdodHRwczovL3d3dy55b3V0dWJlLmNvbS9jaGFubmVsL1VDdmpnWHZCbGJRaXlkZmZaVTdtMV9hdycgLy8geW91dHViZVxyXG4gIH0sXHJcbiAge1xyXG4gICAgaWQ6IDMsXHJcbiAgICB0aHVtYjogJy4uL3N0YXRpYy9pbWFnZXMvcmVzb3VyY2VzL1Byb2Nlc3NpbmdGb3VuZGF0aW9uLmpwZycsXHJcbiAgICBuYW1lOiAnUHJvY2Vzc2luZyBGb3VuZGF0aW9uJyxcclxuICAgIGRlc2M6ICdFbXBvd2VyaW5nIHBlb3BsZSBvZiBhbGwgaW50ZXJlc3RzIGFuZCBiYWNrZ3JvdW5kcyB0byBsZWFybiBob3cgdG8gcHJvZ3JhbScsXHJcbiAgICBsaW5rOiAnaHR0cHM6Ly9wcm9jZXNzaW5nZm91bmRhdGlvbi5vcmcvJyAvLyBwIGZvdW5kYXRpb25cclxuICB9XHJcbl07XHJcblxyXG5jbGFzcyBQcm9ncmFtIGV4dGVuZHMgQ29tcG9uZW50IHtcclxuICBjb25zdHJ1Y3Rvcihwcm9wcykge1xyXG4gICAgc3VwZXIocHJvcHMpO1xyXG4gICAgdGhpcy5zdGF0ZSA9IHt9O1xyXG4gIH1cclxuXHJcbiAgcmVuZGVyKCkge1xyXG4gICAgLy8gc29tZSBjb2RlIGhlcmVcclxuICAgIHJldHVybiAoXHJcbiAgICAgIDxMYXlvdXQ+XHJcbiAgICAgICAgPFRpdGxlIHR4dD1cIlJlc291cmNlIGxpbmtzXCIgLz5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJlc291cmNlV3JhcHBlclwiPlxyXG4gICAgICAgICAge3Jlc291cmNlcy5tYXAoIGZ1bmN0aW9uKHJlLCBpKSB7XHJcbiAgICAgICAgICAgIHJldHVybiA8UmVzb3VyY2VFbnRyeVxyXG4gICAgICAgICAgICAgIGlkPXtyZS5pZH1cclxuICAgICAgICAgICAgICBuYW1lPXtyZS5uYW1lfVxyXG4gICAgICAgICAgICAgIGRlc2M9e3JlLmRlc2N9XHJcbiAgICAgICAgICAgICAgbGluaz17cmUubGlua31cclxuICAgICAgICAgICAgICB0aHVtYj17cmUudGh1bWJ9ICAgIFxyXG4gICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICB9KX1cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8YnIvPlxyXG4gICAgICAgIDxUaXRsZSB0eHQ9XCJBZGRpdGlvbmFsIHJlc291cmNlc1wiIC8+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJHcmlkIEdyaWQtLWd1dHRlcnMgR3JpZC0tZnVsbCBsYXJnZS1HcmlkLS1maXRcIj5cclxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiR3JpZC1jZWxsXCI+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicGFkbGV0LWVtYmVkXCI+XHJcbiAgICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICA8aWZyYW1lIHNyYz1cImh0dHBzOi8vcGFkbGV0LmNvbS9lbWJlZC82OW5lZjQzY2FkcmlcIiBmcmFtZUJvcmRlcj1cIjBcIiBhbGxvdz1cImNhbWVyYTttaWNyb3Bob25lO2dlb2xvY2F0aW9uXCI+PC9pZnJhbWU+XHJcbiAgICAgICAgICAgICAgPC9wPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgIC5wYWRsZXQtZW1iZWQge1xyXG4gICAgICAgICAgICBib3JkZXItcmFkaXVzOiAycHg7XHJcbiAgICAgICAgICAgIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICAgICAgICAgICAgLW1vei1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gICAgICAgICAgICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbiAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiAjRjRGNEY0O1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgLnBhZGxldC1lbWJlZCBwIHtcclxuICAgICAgICAgICAgcGFkZGluZzogMDtcclxuICAgICAgICAgICAgbWFyZ2luOiAwO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgICAgLnBhZGxldC1lbWJlZCBpZnJhbWUge1xyXG4gICAgICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDYwOHB4O1xyXG4gICAgICAgICAgICBkaXNwbGF5OiBibG9jaztcclxuICAgICAgICAgICAgZmxvYXQ6IGxlZnQ7XHJcbiAgICAgICAgICAgIHBhZGRpbmc6MDtcclxuICAgICAgICAgICAgbWFyZ2luOjA7XHJcbiAgICAgICAgICAgIG92ZXJmbG93LXg6aGlkZGVuO1xyXG4gICAgICAgICAgfVxyXG4gICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgPC9MYXlvdXQ+XHJcbiAgICApXHJcbiAgfVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBQcm9ncmFtIl19 */\n/*@ sourceURL=C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\resources.js */",
+        __self: this
+      }));
+    }
+  }]);
+
+  return Program;
+}(react__WEBPACK_IMPORTED_MODULE_1__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (Program);
 
 /***/ }),
 
@@ -945,14 +1080,14 @@ var whyCodes = [{
 
 /***/ }),
 
-/***/ 6:
-/*!********************************!*\
-  !*** multi ./pages/whycode.js ***!
-  \********************************/
+/***/ 4:
+/*!**********************************!*\
+  !*** multi ./pages/resources.js ***!
+  \**********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/whycode.js */"./pages/whycode.js");
+module.exports = __webpack_require__(/*! ./pages/resources.js */"./pages/resources.js");
 
 
 /***/ }),
@@ -1021,7 +1156,18 @@ module.exports = require("react-icons/md");
 
 module.exports = require("react-responsive-navbar");
 
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
+
 /***/ })
 
 /******/ });
-//# sourceMappingURL=whycode.js.map
+//# sourceMappingURL=resources.js.map
