@@ -4,7 +4,7 @@ import Link from 'next/link'
 // https://nextjs.org/learn/basics/styling-components/no-effect-for-nested-components
 
 const PeopleEntry = (props) => (
-  <div className="peopleEntry" id={props.key}>    
+  <div className="peopleEntry" id={props.id}>    
     <span className="thumb">
       <Link href={props.link}>
         <a target={props.newWindow}>

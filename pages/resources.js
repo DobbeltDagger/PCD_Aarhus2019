@@ -52,6 +52,7 @@ class Program extends Component {
           {resources.map( function(re, i) {
             return <ResourceEntry
               id={re.id}
+              key={re.id}
               name={re.name}
               desc={re.desc}
               link={re.link}
