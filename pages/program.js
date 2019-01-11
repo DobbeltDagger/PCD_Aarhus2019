@@ -54,6 +54,7 @@ class Program extends Component {
         Ann Karring<br/>
         Tilde LD<br/>
         Lauren Lee McCarthy<br/>
+        Alex Mørch<br/>
         </p>
       </Layout>
     )

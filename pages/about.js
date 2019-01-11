@@ -72,6 +72,15 @@ const people = [
   },
   {
     id: 8,
+    thumb: '../static/images/people/AlexMorch.jpg',
+    name: 'Alex Mørch',
+    /* desc: '(b. 1987, Denmark) is a transdisciplinary composer and artist. His works are typically a mixture of homebrewn machinery in spatial installations, involving human interaction. They are an exploration of the music and life that hides in the machinery, especially when pushed to its limits and connected in inexpedient ways. The compositions reflect a fascination for chaos and randomness contra synchronicity – that everything is connected (or the absolute opposite). Alex Mørch is currently studying the soloist programme in electronic composition at DIEM (Danish Institute of Electronic Music) at the Royal Academy of Music, Aarhus, from where he also holds a master degree', */
+    desc: '(b. 1987, Denmark) is a transdisciplinary composer and artist. His works are typically a mixture of homebrewn machinery in spatial installations, involving human interaction. Alex Mørch is currently studying the soloist programme in electronic composition at DIEM (Danish Institute of Electronic Music) at the Royal Academy of Music, Aarhus, from where he also holds a master degree',
+    link: 'https://alexmorch.com/',
+    newWindow: '_blank'
+  },
+  {
+    id: 9,
     thumb: '../static/images/people/NathaliaNovais.jpg',
     name: 'Nathalia Novais',
     desc: 'Graphic designer, researcher and filmmaker-producer from Brazil based in Denmark. Currently a master student of the Information Studies program at Aarhus University. Some work available at ',
@@ -79,7 +88,7 @@ const people = [
     newWindow: '_blank'
   },
   {
-    id: 9,
+    id: 10,
     thumb: '../static/images/people/LaurenMcCarthy.jpg',
     name: 'Lauren Lee McCarthy',
     desc: 'Lauren (US) is the creator of p5.js, an open source platform for learning creative expression. As an artist, her work has been exhibited internationally, examining how issues of surveillance, automation, and network culture affect our social relationships. She is an Assistant Professor at UCLA Design Media Arts',
@@ -87,7 +96,7 @@ const people = [
     newWindow: '_blank'
   },
   {
-    id: 10,
+    id: 11,
     thumb: '../static/images/people/MarkPoulsen.jpg',
     name: 'Mark Staun Poulsen',
     desc: 'Student of Digital Design BA program at Aarhus University. Especially interested in the expressive use of software processing in relation to digital genres such as video games and electronic literature. Wrote his very first line of code one year ago as part of the “Aesthetic Programming” university course',
@@ -95,7 +104,7 @@ const people = [
     newWindow: ''
   },  
   {
-    id: 11,
+    id: 12,
     thumb: '../static/images/people/WinnieSoon.jpg',
     name: 'Winnie Soon',
     desc: 'Artist-researcher examining the cultural implications of technologies in which computational processes and infrastructure underwrite our experiences, which are ever more programmed. Her current research focuses on aesthetic coding in the realm of software studies, working on two books titled “Aesthetic Programming” (w/ Geoff Cox) and “Fix My Code” (w/ Cornelia Sollfrank) ',
@@ -103,7 +112,7 @@ const people = [
     newWindow: '_blank'
   },
   {
-    id: 12,
+    id: 13,
     thumb: '../static/images/people/TobiasStenberg.jpg',
     name: 'Tobias Stenberg Christensen',
     desc: 'Graphic designer and visual artist. Currently a master student of the Digital Design program at Aarhus University',
@@ -111,7 +120,7 @@ const people = [
     newWindow: '_blank'
   },
   {
-    id: 13,
+    id: 14,
     thumb: '../static/images/people/AndersVisti.jpg',
     name: 'Anders Visti',
     desc: 'Visual artist working with code. Founder and co-editor of the publishing house * [asterisk] from 2002-12. Founder and editor of the printed web publication ‡ DobbeltDagger and initiator of !=null, a public forum for artists, researchers, developers and hackers using contemporary technology for creative expression and aesthetic inquiry',
