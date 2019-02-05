@@ -21047,40 +21047,52 @@ function (_Component) {
           lineNumber: 51
         },
         __self: this
-      }), "Malthe Stavning Erslev", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }), "Tobias Stenberg Christensen", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 52
         },
         __self: this
-      }), "Stig M\xF8ller Hansen", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }), "Malthe Stavning Erslev", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53
         },
         __self: this
-      }), "Ann Karring", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }), "Stig M\xF8ller Hansen", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 54
         },
         __self: this
-      }), "Tilde LD", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }), "Ann Karring", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 55
         },
         __self: this
-      }), "Lauren Lee McCarthy", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }), "Tilde LD", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 56
         },
         __self: this
-      }), "Alex M\xF8rch", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+      }), "Lauren Lee McCarthy", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 57
+        },
+        __self: this
+      }), "Alex M\xF8rch", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58
+        },
+        __self: this
+      }), "Anders Visti", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59
         },
         __self: this
       })));
@@ -21141,7 +21153,7 @@ class Program extends Component {
 
 /***/ }),
 
-/***/ 11:
+/***/ 9:
 /*!********************************!*\
   !*** multi ./pages/program.js ***!
   \********************************/
@@ -21166,5 +21178,5 @@ module.exports = dll_9c26f521c5881a249bdd;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]));;
+},[[9,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=program.js.map

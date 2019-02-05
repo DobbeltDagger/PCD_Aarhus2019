@@ -49,12 +49,14 @@ class Program extends Component {
         <p>Presenters so far:<br/>
         Ester Marie Aagard<br/>
         Andreja Andric<br/>
+        Tobias Stenberg Christensen<br/>
         Malthe Stavning Erslev<br/>
         Stig Møller Hansen<br/>
         Ann Karring<br/>
         Tilde LD<br/>
         Lauren Lee McCarthy<br/>
         Alex Mørch<br/>
+        Anders Visti<br/>
         </p>
       </Layout>
     )
