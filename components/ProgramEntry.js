@@ -6,44 +6,33 @@ import Link from 'next/link'
 const ProgramEntry = (props) => (
   <div className="programEntry" id={props.key}>
     <span className="timeWrapper">{props.time}</span>
-    <span className="lead">{props.lead}</span>
-    <span className="title">{props.title}</span>
-    <span className="desc">{props.desc}</span>
-    <span className="link">
-      <Link href={props.link}>
-        <a target="_blank">{props.link}</a>
-      </Link>
+    <span className="infoWrapper">
+      <span className="title">{props.title}</span>&nbsp;&nbsp;
+      <span className="lead">{props.lead}</span>
     </span>
     <style jsx>{`
       .programEntry {
         padding: 0.5em 0px;
         width: 100%;
         border-bottom: 1px solid rgba(32,27,63,0.1);
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
       }
       span {
         text-align: left;
       }
       span.timeWrapper {
+        display: inline-block;
         padding-right: 1em;
-        flex: 1;
+      }
+      span.infoWrapper {
+        display: inline-block;
+      }
+      span.title {
+        background: rgba(255,255,0,0.4);
+        font-style: italic;
+        padding: 2px 3px;
       }
       span.lead {
         padding-right: 1em;
-        flex: 2;
-      }
-      span.title {
-        flex: 3;
-      }
-      span.desc {
-        flex: 3;
-        display: none;
-      }
-      span.link {
-        flex: 2;
       }
     `}</style>
   </div>

@@ -519,65 +519,43 @@ var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\Program
 var ProgramEntry = function ProgramEntry(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     id: props.key,
-    className: "jsx-701461322" + " " + "programEntry",
+    className: "jsx-3496781539" + " " + "programEntry",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-701461322" + " " + "timeWrapper",
+    className: "jsx-3496781539" + " " + "timeWrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
   }, props.time), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-701461322" + " " + "lead",
+    className: "jsx-3496781539" + " " + "infoWrapper",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, props.lead), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-701461322" + " " + "title",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3496781539" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, props.title), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-701461322" + " " + "desc",
+  }, props.title), "\xA0\xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3496781539" + " " + "lead",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
     },
     __self: this
-  }, props.desc), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-701461322" + " " + "link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: props.link,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    target: "_blank",
-    className: "jsx-701461322",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, props.link))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "701461322",
-    css: ".programEntry.jsx-701461322{padding:0.5em 0px;width:100%;border-bottom:1px solid rgba(32,27,63,0.1);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}span.jsx-701461322{text-align:left;}span.timeWrapper.jsx-701461322{padding-right:1em;-webkit-flex:1;-ms-flex:1;flex:1;}span.lead.jsx-701461322{padding-right:1em;-webkit-flex:2;-ms-flex:2;flex:2;}span.title.jsx-701461322{-webkit-flex:3;-ms-flex:3;flex:3;}span.desc.jsx-701461322{-webkit-flex:3;-ms-flex:3;flex:3;display:none;}span.link.jsx-701461322{-webkit-flex:2;-ms-flex:2;flex:2;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxQQ0RfQUFSSFVTX055dERlc2lnblxcY29tcG9uZW50c1xcUHJvZ3JhbUVudHJ5LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWdCZ0IsQUFHMkIsQUFTRixBQUdFLEFBSUEsQUFJWCxBQUdBLEFBSUEsZ0JBakJULEVBVGEsQUFZSixBQUlBLFdBZm9DLElBbUI3QyxBQUdlLEFBSWYsYUFIQSxLQVhBLEFBSUEscUJBZnNCLG9CQUNDLHFCQUNELG9CQUNQLDBFQUNmIiwiZmlsZSI6IkM6XFx4YW1wcFxcaHRkb2NzXFxQQ0RfQUFSSFVTX055dERlc2lnblxcY29tcG9uZW50c1xcUHJvZ3JhbUVudHJ5LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJ1xyXG5cclxuLy8gc3R5bGVkIGpzeCBmb3IgcHJvcHMgaW4gY3NzXHJcbi8vIGh0dHBzOi8vbmV4dGpzLm9yZy9sZWFybi9iYXNpY3Mvc3R5bGluZy1jb21wb25lbnRzL25vLWVmZmVjdC1mb3ItbmVzdGVkLWNvbXBvbmVudHNcclxuXHJcbmNvbnN0IFByb2dyYW1FbnRyeSA9IChwcm9wcykgPT4gKFxyXG4gIDxkaXYgY2xhc3NOYW1lPVwicHJvZ3JhbUVudHJ5XCIgaWQ9e3Byb3BzLmtleX0+XHJcbiAgICA8c3BhbiBjbGFzc05hbWU9XCJ0aW1lV3JhcHBlclwiPntwcm9wcy50aW1lfTwvc3Bhbj5cclxuICAgIDxzcGFuIGNsYXNzTmFtZT1cImxlYWRcIj57cHJvcHMubGVhZH08L3NwYW4+XHJcbiAgICA8c3BhbiBjbGFzc05hbWU9XCJ0aXRsZVwiPntwcm9wcy50aXRsZX08L3NwYW4+XHJcbiAgICA8c3BhbiBjbGFzc05hbWU9XCJkZXNjXCI+e3Byb3BzLmRlc2N9PC9zcGFuPlxyXG4gICAgPHNwYW4gY2xhc3NOYW1lPVwibGlua1wiPlxyXG4gICAgICA8TGluayBocmVmPXtwcm9wcy5saW5rfT5cclxuICAgICAgICA8YSB0YXJnZXQ9XCJfYmxhbmtcIj57cHJvcHMubGlua308L2E+XHJcbiAgICAgIDwvTGluaz5cclxuICAgIDwvc3Bhbj5cclxuICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgLnByb2dyYW1FbnRyeSB7XHJcbiAgICAgICAgcGFkZGluZzogMC41ZW0gMHB4O1xyXG4gICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCByZ2JhKDMyLDI3LDYzLDAuMSk7XHJcbiAgICAgICAgZGlzcGxheTogLXdlYmtpdC1ib3g7XHJcbiAgICAgICAgZGlzcGxheTogLXdlYmtpdC1mbGV4O1xyXG4gICAgICAgIGRpc3BsYXk6IC1tcy1mbGV4Ym94O1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgIH1cclxuICAgICAgc3BhbiB7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcclxuICAgICAgfVxyXG4gICAgICBzcGFuLnRpbWVXcmFwcGVyIHtcclxuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxZW07XHJcbiAgICAgICAgZmxleDogMTtcclxuICAgICAgfVxyXG4gICAgICBzcGFuLmxlYWQge1xyXG4gICAgICAgIHBhZGRpbmctcmlnaHQ6IDFlbTtcclxuICAgICAgICBmbGV4OiAyO1xyXG4gICAgICB9XHJcbiAgICAgIHNwYW4udGl0bGUge1xyXG4gICAgICAgIGZsZXg6IDM7XHJcbiAgICAgIH1cclxuICAgICAgc3Bhbi5kZXNjIHtcclxuICAgICAgICBmbGV4OiAzO1xyXG4gICAgICAgIGRpc3BsYXk6IG5vbmU7XHJcbiAgICAgIH1cclxuICAgICAgc3Bhbi5saW5rIHtcclxuICAgICAgICBmbGV4OiAyO1xyXG4gICAgICB9XHJcbiAgICBgfTwvc3R5bGU+XHJcbiAgPC9kaXY+XHJcbiAgXHJcbilcclxuXHJcbmV4cG9ydCBkZWZhdWx0IFByb2dyYW1FbnRyeSJdfQ== */\n/*@ sourceURL=C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\ProgramEntry.js */",
+  }, props.lead)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "3496781539",
+    css: ".programEntry.jsx-3496781539{padding:0.5em 0px;width:100%;border-bottom:1px solid rgba(32,27,63,0.1);}span.jsx-3496781539{text-align:left;}span.timeWrapper.jsx-3496781539{display:inline-block;padding-right:1em;}span.infoWrapper.jsx-3496781539{display:inline-block;}span.title.jsx-3496781539{background:rgba(255,255,0,0.4);font-style:italic;padding:2px 3px;}span.lead.jsx-3496781539{padding-right:1em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxQQ0RfQUFSSFVTX055dERlc2lnblxcY29tcG9uZW50c1xcUHJvZ3JhbUVudHJ5LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVlnQixBQUcyQixBQUtGLEFBR0ssQUFJQSxBQUdVLEFBS2IsZ0JBZHBCLEVBTGEsQUFvQmIsR0Fab0IsQUFJcEIsUUFYNkMsRUFjekIsUUFOcEIsVUFPa0IsZ0JBQ2xCLE9BZkEiLCJmaWxlIjoiQzpcXHhhbXBwXFxodGRvY3NcXFBDRF9BQVJIVVNfTnl0RGVzaWduXFxjb21wb25lbnRzXFxQcm9ncmFtRW50cnkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXHJcblxyXG4vLyBzdHlsZWQganN4IGZvciBwcm9wcyBpbiBjc3NcclxuLy8gaHR0cHM6Ly9uZXh0anMub3JnL2xlYXJuL2Jhc2ljcy9zdHlsaW5nLWNvbXBvbmVudHMvbm8tZWZmZWN0LWZvci1uZXN0ZWQtY29tcG9uZW50c1xyXG5cclxuY29uc3QgUHJvZ3JhbUVudHJ5ID0gKHByb3BzKSA9PiAoXHJcbiAgPGRpdiBjbGFzc05hbWU9XCJwcm9ncmFtRW50cnlcIiBpZD17cHJvcHMua2V5fT5cclxuICAgIDxzcGFuIGNsYXNzTmFtZT1cInRpbWVXcmFwcGVyXCI+e3Byb3BzLnRpbWV9PC9zcGFuPlxyXG4gICAgPHNwYW4gY2xhc3NOYW1lPVwiaW5mb1dyYXBwZXJcIj5cclxuICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIj57cHJvcHMudGl0bGV9PC9zcGFuPiZuYnNwOyZuYnNwO1xyXG4gICAgICA8c3BhbiBjbGFzc05hbWU9XCJsZWFkXCI+e3Byb3BzLmxlYWR9PC9zcGFuPlxyXG4gICAgPC9zcGFuPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAucHJvZ3JhbUVudHJ5IHtcclxuICAgICAgICBwYWRkaW5nOiAwLjVlbSAwcHg7XHJcbiAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHJnYmEoMzIsMjcsNjMsMC4xKTtcclxuICAgICAgfVxyXG4gICAgICBzcGFuIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gICAgICB9XHJcbiAgICAgIHNwYW4udGltZVdyYXBwZXIge1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxZW07XHJcbiAgICAgIH1cclxuICAgICAgc3Bhbi5pbmZvV3JhcHBlciB7XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICB9XHJcbiAgICAgIHNwYW4udGl0bGUge1xyXG4gICAgICAgIGJhY2tncm91bmQ6IHJnYmEoMjU1LDI1NSwwLDAuNCk7XHJcbiAgICAgICAgZm9udC1zdHlsZTogaXRhbGljO1xyXG4gICAgICAgIHBhZGRpbmc6IDJweCAzcHg7XHJcbiAgICAgIH1cclxuICAgICAgc3Bhbi5sZWFkIHtcclxuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxZW07XHJcbiAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L2Rpdj5cclxuICBcclxuKVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgUHJvZ3JhbUVudHJ5Il19 */\n/*@ sourceURL=C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\ProgramEntry.js */",
     __self: this
   }));
 };
@@ -910,29 +888,86 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
- // make the program as JSON
+
+/*
+> 11.00 - 11.10 - Introduction
+> 11.15 - 11.30 - p5.js by Lauren Lee McCarthy 
+> 11. 35 -11.50 - Learning or mimicry? On mimetic bots and developmental robopsychology by Malthe Stavning Erslev 
+> 11.55  - 12.10 - Object awareness by Ester Marie Aagard
+> 12.15 - 12.30 -  Alex Mørch
+> 12.35 - 12.50  - Tobias Stenberg Christensen + Anders Visti
+> LUNCH BREAK (included)
+> 13.20 - 13.35 - Introducing Code in Graphic Design Education by Stig Møller Hansen
+> 13.40 - 13.55 - Who are YOU? by Ann Karring
+> 14.00 - 14.15 - Numbers, Networks, Noise by Andreja Andric + Anders Visti
+> 14.20 - 14.35 - Data Erasure - The Act of Forgetting by Tilde LD 
+> 14.40 - 14.55 - Vocable Code by Winnie Soon
+> SAY SOMETHING to end this session 
+[Code & Share] 
+> 11.30 - 15.30
+*/
+// make the program as JSON
 
 var prgJson = [{
   id: 0,
-  title: 'title #1',
-  lead: 'First Middle Namesen',
-  desc: 'This is some dummy text here to the first guy here',
-  link: 'https://somelink.com',
-  time: '12.15 - 12.30'
+  time: '11.00 – 11.10',
+  title: 'Introduction',
+  lead: 'by PCD organizers'
 }, {
   id: 1,
-  title: 'title #2, the Second Title of the day!',
-  lead: 'This is the name of the 2nd',
-  desc: 'This is some dummy text here to the second guy here',
-  link: 'https://somelinkOrOther.com',
-  time: '12.30 - 12.45'
+  time: '11.15 – 11.30',
+  title: 'p5.js (video)',
+  lead: 'by Lauren Lee McCarthy'
 }, {
   id: 2,
-  title: 'title #3',
-  lead: 'This is the name #3',
-  desc: 'This is some dummy text here',
-  link: 'https://somelink.com',
-  time: '12.45 - 13.00'
+  time: '11.35 – 11.50',
+  title: 'Learning or mimicry? On mimetic bots and developmental robopsychology',
+  lead: 'by Malthe Stavning Erslev'
+}, {
+  id: 3,
+  time: '11.55 – 12.10',
+  title: 'Object awareness',
+  lead: 'by Ester Marie Aagard'
+}, {
+  id: 4,
+  time: '12.15 – 12.30',
+  title: 'i[x]',
+  lead: 'by Alex Mørch'
+}, {
+  id: 5,
+  time: '12.35 – 12.50',
+  title: 'Turmites',
+  lead: 'by Tobias Stenberg Christensen & Anders Visti'
+}, {
+  id: 6,
+  time: '12.50 – 13.20',
+  title: 'LUNCH BREAK',
+  lead: ''
+}, {
+  id: 7,
+  time: '13.20 – 13.35',
+  title: 'Introducing Code in Graphic Design Education',
+  lead: 'by Stig Møller Hansen'
+}, {
+  id: 8,
+  time: '13.40 – 13.55',
+  title: 'Who are YOU?',
+  lead: 'by Ann Karring'
+}, {
+  id: 9,
+  time: '14.00 – 14.15',
+  title: 'Numbers, Networks, Noise',
+  lead: 'by Andreja Andric & Anders Visti'
+}, {
+  id: 10,
+  time: '14.20 – 14.35',
+  title: 'Data Erasure — The Act of Forgetting',
+  lead: 'by Tilde Lageri Damborg'
+}, {
+  id: 11,
+  time: '14.40 – 14.55',
+  title: 'Vocable Code',
+  lead: 'by Winnie Soon'
 }];
 
 var Program =
@@ -957,95 +992,47 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 112
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_4__["default"], {
         txt: "Program",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 113
+        },
+        __self: this
+      }), prgJson.map(function (pe, i) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ProgramEntry__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          key: pe.id,
+          title: pe.title,
+          lead: pe.lead,
+          time: pe.time,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 115
+          },
+          __self: this
+        });
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 123
         },
         __self: this
-      }, "To be announced ..."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, "11.30 \u2013 15.30", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 123
         },
         __self: this
-      }, "Presenters so far:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }), "Ester Marie Aagard", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }), "Andreja Andric", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }), "Tobias Stenberg Christensen", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }), "Malthe Stavning Erslev", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
-      }), "Stig M\xF8ller Hansen", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }), "Ann Karring", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }), "Tilde LD", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }), "Lauren Lee McCarthy", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
-      }), "Alex M\xF8rch", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        },
-        __self: this
-      }), "Anders Visti", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      })));
+      }), "[Code & Share]\xA0\xA0\xA0Presenters and audiences are welcome to stay on and hang out together during the program, to discuss presentations and share code"));
     }
   }]);
 
@@ -1063,16 +1050,19 @@ class Program extends Component {
     return (
       <Layout>
         <Title txt="Program" />
-        {prgJson.map( function(pe, i) {
-          return <ProgramEntry
-            key={pe.id}
-            title={pe.title}
-            lead={pe.lead}
-            desc={pe.desc}
-            link={pe.link}
-            time={pe.time}    
-            />
-        })}        
+        <p>To be announced ...</p>
+        <p>Presenters so far:<br/>
+        Ester Marie Aagard<br/>
+        Andreja Andric<br/>
+        Tobias Stenberg Christensen<br/>
+        Malthe Stavning Erslev<br/>
+        Stig Møller Hansen<br/>
+        Ann Karring<br/>
+        Tilde LD<br/>
+        Lauren Lee McCarthy<br/>
+        Alex Mørch<br/>
+        Anders Visti<br/>
+        </p>
       </Layout>
     )
   }
