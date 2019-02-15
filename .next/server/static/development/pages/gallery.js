@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -231,6 +231,222 @@ var Footer = function Footer() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./components/GalleryComplete.js":
+/*!***************************************!*\
+  !*** ./components/GalleryComplete.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_photo_gallery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-photo-gallery */ "react-photo-gallery");
+/* harmony import */ var react_photo_gallery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_photo_gallery__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_images__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-images */ "react-images");
+/* harmony import */ var react_images__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_images__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\GalleryComplete.js";
+
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+
+
+
+var photos = [{
+  src: "../static/images/PCDimgs/0.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/1.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/2.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/3.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/4.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/5.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/6.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/7.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/8.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/9.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/10.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/11.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/12.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/13.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/14.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/15.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/16.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/17.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/18.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/19.jpg",
+  width: 3,
+  height: 2
+}, {
+  src: "../static/images/PCDimgs/20.jpg",
+  width: 4,
+  height: 3
+}];
+
+var GalleryComplete =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(GalleryComplete, _Component);
+
+  function GalleryComplete() {
+    var _this;
+
+    _classCallCheck(this, GalleryComplete);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(GalleryComplete).call(this));
+    _this.state = {
+      currentImage: 0
+    };
+    _this.closeLightbox = _this.closeLightbox.bind(_assertThisInitialized(_assertThisInitialized(_this)));
+    _this.openLightbox = _this.openLightbox.bind(_assertThisInitialized(_assertThisInitialized(_this)));
+    _this.gotoNext = _this.gotoNext.bind(_assertThisInitialized(_assertThisInitialized(_this)));
+    _this.gotoPrevious = _this.gotoPrevious.bind(_assertThisInitialized(_assertThisInitialized(_this)));
+    return _this;
+  }
+
+  _createClass(GalleryComplete, [{
+    key: "openLightbox",
+    value: function openLightbox(event, obj) {
+      this.setState({
+        currentImage: obj.index,
+        lightboxIsOpen: true
+      });
+    }
+  }, {
+    key: "closeLightbox",
+    value: function closeLightbox() {
+      this.setState({
+        currentImage: 0,
+        lightboxIsOpen: false
+      });
+    }
+  }, {
+    key: "gotoPrevious",
+    value: function gotoPrevious() {
+      this.setState({
+        currentImage: this.state.currentImage - 1
+      });
+    }
+  }, {
+    key: "gotoNext",
+    value: function gotoNext() {
+      this.setState({
+        currentImage: this.state.currentImage + 1
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_photo_gallery__WEBPACK_IMPORTED_MODULE_1___default.a, {
+        photos: photos,
+        onClick: this.openLightbox,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_images__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        images: photos,
+        onClose: this.closeLightbox,
+        onClickPrev: this.gotoPrevious,
+        onClickNext: this.gotoNext,
+        currentImage: this.state.currentImage,
+        isOpen: this.state.lightboxIsOpen,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 64
+        },
+        __self: this
+      }));
+    }
+  }]);
+
+  return GalleryComplete;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (GalleryComplete);
 
 /***/ }),
 
@@ -809,121 +1025,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
 /* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Title */ "./components/Title.js");
-/* harmony import */ var react_grid_gallery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-grid-gallery */ "react-grid-gallery");
-/* harmony import */ var react_grid_gallery__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_grid_gallery__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_GalleryComplete__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/GalleryComplete */ "./components/GalleryComplete.js");
 var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\gallery.js";
 
 
 
- // https://benhowell.github.io/react-grid-gallery/
-// gallery options: https://github.com/benhowell/react-grid-gallery#image-options
 
-var IMAGES = [{
-  src: "../static/images/PCDimgs/0.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/0.jpg",
-  caption: "PCD 2019 @Aarhus"
-}, {
-  src: "../static/images/PCDimgs/1.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/1.jpg",
-  caption: "PCD 2019 @Aarhus"
-}, {
-  src: "../static/images/PCDimgs/2.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/2.jpg",
-  caption: "PCD 2019 @Aarhus"
-}, {
-  src: "../static/images/PCDimgs/3.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/3.jpg",
-  caption: "PCD 2019 @Aarhus. Lauren Lee McCarthy"
-}, {
-  src: "../static/images/PCDimgs/4.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/4.jpg",
-  caption: "PCD 2019 @Aarhus. Lauren Lee McCarthy"
-}, {
-  src: "../static/images/PCDimgs/5.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/5.jpg",
-  caption: "PCD 2019 @Aarhus. Malthe Stavning Erslev"
-}, {
-  src: "../static/images/PCDimgs/6.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/6.jpg",
-  caption: "PCD 2019 @Aarhus. Malthe Stavning Erslev"
-}, {
-  src: "../static/images/PCDimgs/7.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/7.jpg",
-  caption: "PCD 2019 @Aarhus. Ester Marie Aagard"
-}, {
-  src: "../static/images/PCDimgs/8.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/8.jpg",
-  caption: "PCD 2019 @Aarhus. Ester Marie Aagard"
-}, {
-  src: "../static/images/PCDimgs/9.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/9.jpg",
-  caption: "PCD 2019 @Aarhus. Tobias Stenberg and Anders Visti"
-}, {
-  src: "../static/images/PCDimgs/10.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/10.jpg",
-  caption: "PCD 2019 @Aarhus. Tobias Stenberg and Anders Visti"
-}, {
-  src: "../static/images/PCDimgs/11.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/11.jpg",
-  caption: "PCD 2019 @Aarhus. Stig Møller Hansen"
-}, {
-  src: "../static/images/PCDimgs/12.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/12.jpg",
-  caption: "PCD 2019 @Aarhus. Stig Møller Hansen"
-}, {
-  src: "../static/images/PCDimgs/13.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/13.jpg",
-  caption: "PCD 2019 @Aarhus. Ann Karring"
-}, {
-  src: "../static/images/PCDimgs/14.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/14.jpg",
-  caption: "PCD 2019 @Aarhus. Ann Karring"
-}, {
-  src: "../static/images/PCDimgs/15.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/15.jpg",
-  caption: "PCD 2019 @Aarhus. Andreja Andric"
-}, {
-  src: "../static/images/PCDimgs/16.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/16.jpg",
-  caption: "PCD 2019 @Aarhus. Andreja Andric"
-}, {
-  src: "../static/images/PCDimgs/17.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/17.jpg",
-  caption: "PCD 2019 @Aarhus. Tilde Lageri Damborg"
-}, {
-  src: "../static/images/PCDimgs/18.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/18.jpg",
-  caption: "PCD 2019 @Aarhus. Tilde Lageri Damborg"
-}, {
-  src: "../static/images/PCDimgs/19.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/19.jpg",
-  caption: "PCD 2019 @Aarhus. Winnie Soon"
-}, {
-  src: "../static/images/PCDimgs/20.jpg",
-  thumbnail: "../static/images/PCDimgs/thumbs/20.jpg",
-  caption: "PCD 2019 @Aarhus. Winnie Soon"
-}];
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 6
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_2__["default"], {
     txt: "Pics from PCD 2019 @Aarhus",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 7
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_grid_gallery__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    images: IMAGES,
-    enableImageSelection: false,
-    showImageCount: true,
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_GalleryComplete__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 8
     },
     __self: this
   }));
@@ -964,7 +1089,7 @@ var IMAGES = [{
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!********************************!*\
   !*** multi ./pages/gallery.js ***!
   \********************************/
@@ -1020,17 +1145,6 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-grid-gallery":
-/*!*************************************!*\
-  !*** external "react-grid-gallery" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-grid-gallery");
-
-/***/ }),
-
 /***/ "react-icons/md":
 /*!*********************************!*\
   !*** external "react-icons/md" ***!
@@ -1039,6 +1153,28 @@ module.exports = require("react-grid-gallery");
 /***/ (function(module, exports) {
 
 module.exports = require("react-icons/md");
+
+/***/ }),
+
+/***/ "react-images":
+/*!*******************************!*\
+  !*** external "react-images" ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-images");
+
+/***/ }),
+
+/***/ "react-photo-gallery":
+/*!**************************************!*\
+  !*** external "react-photo-gallery" ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-photo-gallery");
 
 /***/ }),
 
