@@ -7,6 +7,7 @@ module.exports = withCSS({
     return {
       '/': { page: '/' },
       '/about': { page: '/about' },
+      '/gallery': { page: '/gallery' },
       '/opencall': { page: '/opencall'},
       '/program': { page: '/program'},
       '/resources': { page: '/resources'},

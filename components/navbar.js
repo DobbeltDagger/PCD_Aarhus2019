@@ -33,6 +33,11 @@ class NavBar extends Component {
               </ActiveLink>
             </li>
             <li>
+              <ActiveLink href="/gallery">
+                <a>gallery</a>
+              </ActiveLink>
+            </li>
+            <li>
               <ActiveLink href="/whycode">
                 <a>why code?</a>
               </ActiveLink>

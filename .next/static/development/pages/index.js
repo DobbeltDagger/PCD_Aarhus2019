@@ -633,7 +633,7 @@ function (_Component) {
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-          href: "/whycode",
+          href: "/gallery",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 36
@@ -645,24 +645,43 @@ function (_Component) {
             lineNumber: 37
           },
           __self: this
-        }, "why code?"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        }, "gallery"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
           __source: {
             fileName: _jsxFileName,
             lineNumber: 40
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
-          href: "/opencall",
+          href: "/whycode",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 41
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-          className: "openCall",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 42
+          },
+          __self: this
+        }, "why code?"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 45
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ActiveLink__WEBPACK_IMPORTED_MODULE_1__["default"], {
+          href: "/opencall",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 46
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+          className: "openCall",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 47
           },
           __self: this
         }, "open call")))),
