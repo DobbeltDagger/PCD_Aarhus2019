@@ -19,7 +19,16 @@ class Index extends Component {
       <Layout>
         <div className="Grid Grid--gutters Grid--full large-Grid--fit">
           <div className="Grid-cell">
-            <iframe id="mapSource" scrollwheel="false" width="100%" frameBorder="0" allowFullScreen src="https://umap.openstreetmap.fr/en/map/processing-community-day-worldwide-2019_254734?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=false&measureControl=false&editinosmControl=false"></iframe>
+            <img src="../static/images/PCD_front.jpg" className="fitColumn"/>
+          </div>
+        </div>
+        <Title txt="PCD @Aarhus 2019, How to think about code differently" />
+        <div className="Grid Grid--gutters Grid--full large-Grid--fit">
+          <div className="Grid-cell">
+            <p>For PCD @ Aarhus 2019, we are aiming to build an open and local community to explore code and coding practice in many different ways beyond science and engineering specialisation and functional applications development.</p>
+          </div>
+          <div className="Grid-cell">
+            <p>Together with each of you from diverse backgrounds, we would like to explore how could we think about code differently and creatively via art, design and beyond.</p>
           </div>
         </div>
         <Title txt="Processing Community Day @Worldwide" />
@@ -34,18 +43,22 @@ class Index extends Component {
             <p>For Processing Community Day 2019, we would like to broaden the reach and impact of this community by organizing with hundreds of Processing communities around the world. The Processing Foundation will be organizing a Processing Community Day in Los Angeles as well as inviting node organizers from all over the world to join us in organizing events in multiple locations.</p>
           </div>
         </div>
-        <Title txt="PCD @Aarhus 2019, How to think about code differently" />
         <div className="Grid Grid--gutters Grid--full large-Grid--fit">
           <div className="Grid-cell">
-            <p>For PCD @ Aarhus 2019, we are aiming to build an open and local community to explore code and coding practice in many different ways beyond science and engineering specialisation and functional applications development.</p>
-          </div>
-          <div className="Grid-cell">
-            <p>Together with each of you from diverse backgrounds, we would like to explore how could we think about code differently and creatively via art, design and beyond.</p>
+            <iframe id="mapSource" scrollwheel="false" width="100%" frameBorder="0" allowFullScreen src="https://umap.openstreetmap.fr/en/map/processing-community-day-worldwide-2019_254734?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=false&measureControl=false&editinosmControl=false"></iframe>
           </div>
         </div>
       </Layout>
     )
   }
 }
+
+/*
+<div className="Grid Grid--gutters Grid--full large-Grid--fit">
+  <div className="Grid-cell">
+    <iframe id="mapSource" scrollwheel="false" width="100%" frameBorder="0" allowFullScreen src="https://umap.openstreetmap.fr/en/map/processing-community-day-worldwide-2019_254734?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=false&measureControl=false&editinosmControl=false"></iframe>
+  </div>
+</div>
+*/
 
 export default Index

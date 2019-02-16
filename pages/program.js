@@ -5,24 +5,6 @@ import Layout from '../components/MyLayout.js'
 import ProgramEntry from '../components/ProgramEntry'
 import Title from '../components/Title'
 
-/*
-> 11.00 - 11.10 - Introduction
-> 11.15 - 11.30 - p5.js by Lauren Lee McCarthy 
-> 11. 35 -11.50 - Learning or mimicry? On mimetic bots and developmental robopsychology by Malthe Stavning Erslev 
-> 11.55  - 12.10 - Object awareness by Ester Marie Aagard
-> 12.15 - 12.30 -  Alex Mørch
-> 12.35 - 12.50  - Tobias Stenberg Christensen + Anders Visti
-> LUNCH BREAK (included)
-> 13.20 - 13.35 - Introducing Code in Graphic Design Education by Stig Møller Hansen
-> 13.40 - 13.55 - Who are YOU? by Ann Karring
-> 14.00 - 14.15 - Numbers, Networks, Noise by Andreja Andric + Anders Visti
-> 14.20 - 14.35 - Data Erasure - The Act of Forgetting by Tilde LD 
-> 14.40 - 14.55 - Vocable Code by Winnie Soon
-> SAY SOMETHING to end this session 
-[Code & Share] 
-> 11.30 - 15.30
-*/
-
 // make the program as JSON
 var prgJson = [
   {
@@ -120,7 +102,7 @@ class Program extends Component {
             />
         })}
         <br/>
-        <p>11.30 – 15.30<br/>[Code &amp; Share]&nbsp;&nbsp;&nbsp;Presenters and audiences are welcome to stay on and hang out together during the program, to discuss presentations and share code</p>
+        <p>11.30 – 15.30<br/>[Code &amp; Share]&nbsp;&nbsp;&nbsp;Presenters and audiences hang out together  to discuss presentations and share code</p>
       </Layout>
 
 

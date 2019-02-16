@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -231,222 +231,6 @@ var Footer = function Footer() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
-
-/***/ "./components/GalleryComplete.js":
-/*!***************************************!*\
-  !*** ./components/GalleryComplete.js ***!
-  \***************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_photo_gallery__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-photo-gallery */ "react-photo-gallery");
-/* harmony import */ var react_photo_gallery__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_photo_gallery__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_images__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-images */ "react-images");
-/* harmony import */ var react_images__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_images__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\GalleryComplete.js";
-
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-
-
-
-var photos = [{
-  src: "../static/images/PCDimgs/0.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/1.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/2.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/3.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/4.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/5.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/6.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/7.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/8.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/9.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/10.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/11.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/12.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/13.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/14.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/15.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/16.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/17.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/18.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/19.jpg",
-  width: 3,
-  height: 2
-}, {
-  src: "../static/images/PCDimgs/20.jpg",
-  width: 4,
-  height: 3
-}];
-
-var GalleryComplete =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(GalleryComplete, _Component);
-
-  function GalleryComplete() {
-    var _this;
-
-    _classCallCheck(this, GalleryComplete);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(GalleryComplete).call(this));
-    _this.state = {
-      currentImage: 0
-    };
-    _this.closeLightbox = _this.closeLightbox.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.openLightbox = _this.openLightbox.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.gotoNext = _this.gotoNext.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    _this.gotoPrevious = _this.gotoPrevious.bind(_assertThisInitialized(_assertThisInitialized(_this)));
-    return _this;
-  }
-
-  _createClass(GalleryComplete, [{
-    key: "openLightbox",
-    value: function openLightbox(event, obj) {
-      this.setState({
-        currentImage: obj.index,
-        lightboxIsOpen: true
-      });
-    }
-  }, {
-    key: "closeLightbox",
-    value: function closeLightbox() {
-      this.setState({
-        currentImage: 0,
-        lightboxIsOpen: false
-      });
-    }
-  }, {
-    key: "gotoPrevious",
-    value: function gotoPrevious() {
-      this.setState({
-        currentImage: this.state.currentImage - 1
-      });
-    }
-  }, {
-    key: "gotoNext",
-    value: function gotoNext() {
-      this.setState({
-        currentImage: this.state.currentImage + 1
-      });
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_photo_gallery__WEBPACK_IMPORTED_MODULE_1___default.a, {
-        photos: photos,
-        onClick: this.openLightbox,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_images__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        images: photos,
-        onClose: this.closeLightbox,
-        onClickPrev: this.gotoPrevious,
-        onClickNext: this.gotoNext,
-        currentImage: this.state.currentImage,
-        isOpen: this.state.lightboxIsOpen,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
-      }));
-    }
-  }]);
-
-  return GalleryComplete;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (GalleryComplete);
 
 /***/ }),
 
@@ -708,6 +492,75 @@ var Layout = function Layout(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./components/ProgramEntry.js":
+/*!************************************!*\
+  !*** ./components/ProgramEntry.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\ProgramEntry.js";
+
+
+ // styled jsx for props in css
+// https://nextjs.org/learn/basics/styling-components/no-effect-for-nested-components
+
+var ProgramEntry = function ProgramEntry(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    id: props.key,
+    className: "jsx-3496781539" + " " + "programEntry",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3496781539" + " " + "timeWrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, props.time), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3496781539" + " " + "infoWrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3496781539" + " " + "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, props.title), "\xA0\xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    className: "jsx-3496781539" + " " + "lead",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, props.lead)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "3496781539",
+    css: ".programEntry.jsx-3496781539{padding:0.5em 0px;width:100%;border-bottom:1px solid rgba(32,27,63,0.1);}span.jsx-3496781539{text-align:left;}span.timeWrapper.jsx-3496781539{display:inline-block;padding-right:1em;}span.infoWrapper.jsx-3496781539{display:inline-block;}span.title.jsx-3496781539{background:rgba(255,255,0,0.4);font-style:italic;padding:2px 3px;}span.lead.jsx-3496781539{padding-right:1em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxQQ0RfQUFSSFVTX055dERlc2lnblxcY29tcG9uZW50c1xcUHJvZ3JhbUVudHJ5LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVlnQixBQUcyQixBQUtGLEFBR0ssQUFJQSxBQUdVLEFBS2IsZ0JBZHBCLEVBTGEsQUFvQmIsR0Fab0IsQUFJcEIsUUFYNkMsRUFjekIsUUFOcEIsVUFPa0IsZ0JBQ2xCLE9BZkEiLCJmaWxlIjoiQzpcXHhhbXBwXFxodGRvY3NcXFBDRF9BQVJIVVNfTnl0RGVzaWduXFxjb21wb25lbnRzXFxQcm9ncmFtRW50cnkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXHJcblxyXG4vLyBzdHlsZWQganN4IGZvciBwcm9wcyBpbiBjc3NcclxuLy8gaHR0cHM6Ly9uZXh0anMub3JnL2xlYXJuL2Jhc2ljcy9zdHlsaW5nLWNvbXBvbmVudHMvbm8tZWZmZWN0LWZvci1uZXN0ZWQtY29tcG9uZW50c1xyXG5cclxuY29uc3QgUHJvZ3JhbUVudHJ5ID0gKHByb3BzKSA9PiAoXHJcbiAgPGRpdiBjbGFzc05hbWU9XCJwcm9ncmFtRW50cnlcIiBpZD17cHJvcHMua2V5fT5cclxuICAgIDxzcGFuIGNsYXNzTmFtZT1cInRpbWVXcmFwcGVyXCI+e3Byb3BzLnRpbWV9PC9zcGFuPlxyXG4gICAgPHNwYW4gY2xhc3NOYW1lPVwiaW5mb1dyYXBwZXJcIj5cclxuICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIj57cHJvcHMudGl0bGV9PC9zcGFuPiZuYnNwOyZuYnNwO1xyXG4gICAgICA8c3BhbiBjbGFzc05hbWU9XCJsZWFkXCI+e3Byb3BzLmxlYWR9PC9zcGFuPlxyXG4gICAgPC9zcGFuPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAucHJvZ3JhbUVudHJ5IHtcclxuICAgICAgICBwYWRkaW5nOiAwLjVlbSAwcHg7XHJcbiAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHJnYmEoMzIsMjcsNjMsMC4xKTtcclxuICAgICAgfVxyXG4gICAgICBzcGFuIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gICAgICB9XHJcbiAgICAgIHNwYW4udGltZVdyYXBwZXIge1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxZW07XHJcbiAgICAgIH1cclxuICAgICAgc3Bhbi5pbmZvV3JhcHBlciB7XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICB9XHJcbiAgICAgIHNwYW4udGl0bGUge1xyXG4gICAgICAgIGJhY2tncm91bmQ6IHJnYmEoMjU1LDI1NSwwLDAuNCk7XHJcbiAgICAgICAgZm9udC1zdHlsZTogaXRhbGljO1xyXG4gICAgICAgIHBhZGRpbmc6IDJweCAzcHg7XHJcbiAgICAgIH1cclxuICAgICAgc3Bhbi5sZWFkIHtcclxuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxZW07XHJcbiAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L2Rpdj5cclxuICBcclxuKVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgUHJvZ3JhbUVudHJ5Il19 */\n/*@ sourceURL=C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\ProgramEntry.js */",
+    __self: this
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ProgramEntry);
 
 /***/ }),
 
@@ -1012,9 +865,9 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./pages/gallery.js":
+/***/ "./pages/program.js":
 /*!**************************!*\
-  !*** ./pages/gallery.js ***!
+  !*** ./pages/program.js ***!
   \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1023,36 +876,202 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
-/* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Title */ "./components/Title.js");
-/* harmony import */ var _components_GalleryComplete__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/GalleryComplete */ "./components/GalleryComplete.js");
-var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\gallery.js";
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
+/* harmony import */ var _components_ProgramEntry__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ProgramEntry */ "./components/ProgramEntry.js");
+/* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Title */ "./components/Title.js");
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\program.js";
+
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+// pages/program.js
 
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    txt: "Pics from PCD 2019 @Aarhus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_GalleryComplete__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }));
-});
+ // make the program as JSON
+
+var prgJson = [{
+  id: 0,
+  time: '11.00 – 11.10',
+  title: 'Introduction',
+  lead: 'by PCD organizers'
+}, {
+  id: 1,
+  time: '11.15 – 11.30',
+  title: 'p5.js (video)',
+  lead: 'by Lauren Lee McCarthy'
+}, {
+  id: 2,
+  time: '11.35 – 11.50',
+  title: 'Learning or mimicry? On mimetic bots and developmental robopsychology',
+  lead: 'by Malthe Stavning Erslev'
+}, {
+  id: 3,
+  time: '11.55 – 12.10',
+  title: 'Object awareness',
+  lead: 'by Ester Marie Aagard'
+}, {
+  id: 4,
+  time: '12.15 – 12.30',
+  title: 'i[x]',
+  lead: 'by Alex Mørch'
+}, {
+  id: 5,
+  time: '12.35 – 12.50',
+  title: 'Turmites',
+  lead: 'by Tobias Stenberg Christensen & Anders Visti'
+}, {
+  id: 6,
+  time: '12.50 – 13.20',
+  title: 'LUNCH BREAK',
+  lead: ''
+}, {
+  id: 7,
+  time: '13.20 – 13.35',
+  title: 'Introducing Code in Graphic Design Education',
+  lead: 'by Stig Møller Hansen'
+}, {
+  id: 8,
+  time: '13.40 – 13.55',
+  title: 'Who are YOU?',
+  lead: 'by Ann Karring'
+}, {
+  id: 9,
+  time: '14.00 – 14.15',
+  title: 'Numbers, Networks, Noise',
+  lead: 'by Andreja Andric & Anders Visti'
+}, {
+  id: 10,
+  time: '14.20 – 14.35',
+  title: 'Data Erasure — The Act of Forgetting',
+  lead: 'by Tilde Lageri Damborg'
+}, {
+  id: 11,
+  time: '14.40 – 14.55',
+  title: 'Vocable Code',
+  lead: 'by Winnie Soon'
+}];
+
+var Program =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Program, _Component);
+
+  function Program(props) {
+    var _this;
+
+    _classCallCheck(this, Program);
+
+    _this = _possibleConstructorReturn(this, _getPrototypeOf(Program).call(this, props));
+    _this.state = {};
+    return _this;
+  }
+
+  _createClass(Program, [{
+    key: "render",
+    value: function render() {
+      // some code here
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 94
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_4__["default"], {
+        txt: "Program",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 95
+        },
+        __self: this
+      }), prgJson.map(function (pe, i) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ProgramEntry__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          key: pe.id,
+          title: pe.title,
+          lead: pe.lead,
+          time: pe.time,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 97
+          },
+          __self: this
+        });
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105
+        },
+        __self: this
+      }, "11.30 \u2013 15.30", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105
+        },
+        __self: this
+      }), "[Code & Share]\xA0\xA0\xA0Presenters and audiences hang out together  to discuss presentations and share code"));
+    }
+  }]);
+
+  return Program;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+/*
+class Program extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    // some code here
+    return (
+      <Layout>
+        <Title txt="Program" />
+        <p>To be announced ...</p>
+        <p>Presenters so far:<br/>
+        Ester Marie Aagard<br/>
+        Andreja Andric<br/>
+        Tobias Stenberg Christensen<br/>
+        Malthe Stavning Erslev<br/>
+        Stig Møller Hansen<br/>
+        Ann Karring<br/>
+        Tilde LD<br/>
+        Lauren Lee McCarthy<br/>
+        Alex Mørch<br/>
+        Anders Visti<br/>
+        </p>
+      </Layout>
+    )
+  }
+}
+*/
+
+
+/* harmony default export */ __webpack_exports__["default"] = (Program);
 
 /***/ }),
 
@@ -1089,14 +1108,14 @@ var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\gallery.js";
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!********************************!*\
-  !*** multi ./pages/gallery.js ***!
+  !*** multi ./pages/program.js ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/gallery.js */"./pages/gallery.js");
+module.exports = __webpack_require__(/*! ./pages/program.js */"./pages/program.js");
 
 
 /***/ }),
@@ -1156,28 +1175,6 @@ module.exports = require("react-icons/md");
 
 /***/ }),
 
-/***/ "react-images":
-/*!*******************************!*\
-  !*** external "react-images" ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-images");
-
-/***/ }),
-
-/***/ "react-photo-gallery":
-/*!**************************************!*\
-  !*** external "react-photo-gallery" ***!
-  \**************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-photo-gallery");
-
-/***/ }),
-
 /***/ "react-responsive-navbar":
 /*!******************************************!*\
   !*** external "react-responsive-navbar" ***!
@@ -1187,7 +1184,18 @@ module.exports = require("react-photo-gallery");
 
 module.exports = require("react-responsive-navbar");
 
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
+
 /***/ })
 
 /******/ });
-//# sourceMappingURL=gallery.js.map
+//# sourceMappingURL=program.js.map
