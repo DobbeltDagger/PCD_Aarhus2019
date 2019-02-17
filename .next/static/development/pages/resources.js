@@ -21136,7 +21136,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 11:
+/***/ 10:
 /*!**********************************!*\
   !*** multi ./pages/resources.js ***!
   \**********************************/
@@ -21161,5 +21161,5 @@ module.exports = dll_9c26f521c5881a249bdd;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]));;
+},[[10,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=resources.js.map

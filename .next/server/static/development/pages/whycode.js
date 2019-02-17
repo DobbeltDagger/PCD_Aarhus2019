@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -495,75 +495,6 @@ var Layout = function Layout(props) {
 
 /***/ }),
 
-/***/ "./components/ProgramEntry.js":
-/*!************************************!*\
-  !*** ./components/ProgramEntry.js ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\ProgramEntry.js";
-
-
- // styled jsx for props in css
-// https://nextjs.org/learn/basics/styling-components/no-effect-for-nested-components
-
-var ProgramEntry = function ProgramEntry(props) {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    id: props.key,
-    className: "jsx-3496781539" + " " + "programEntry",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-3496781539" + " " + "timeWrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, props.time), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-3496781539" + " " + "infoWrapper",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-3496781539" + " " + "title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, props.title), "\xA0\xA0", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-3496781539" + " " + "lead",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, props.lead)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "3496781539",
-    css: ".programEntry.jsx-3496781539{padding:0.5em 0px;width:100%;border-bottom:1px solid rgba(32,27,63,0.1);}span.jsx-3496781539{text-align:left;}span.timeWrapper.jsx-3496781539{display:inline-block;padding-right:1em;}span.infoWrapper.jsx-3496781539{display:inline-block;}span.title.jsx-3496781539{background:rgba(255,255,0,0.4);font-style:italic;padding:2px 3px;}span.lead.jsx-3496781539{padding-right:1em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFx4YW1wcFxcaHRkb2NzXFxQQ0RfQUFSSFVTX055dERlc2lnblxcY29tcG9uZW50c1xcUHJvZ3JhbUVudHJ5LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVlnQixBQUcyQixBQUtGLEFBR0ssQUFJQSxBQUdVLEFBS2IsZ0JBZHBCLEVBTGEsQUFvQmIsR0Fab0IsQUFJcEIsUUFYNkMsRUFjekIsUUFOcEIsVUFPa0IsZ0JBQ2xCLE9BZkEiLCJmaWxlIjoiQzpcXHhhbXBwXFxodGRvY3NcXFBDRF9BQVJIVVNfTnl0RGVzaWduXFxjb21wb25lbnRzXFxQcm9ncmFtRW50cnkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnXHJcblxyXG4vLyBzdHlsZWQganN4IGZvciBwcm9wcyBpbiBjc3NcclxuLy8gaHR0cHM6Ly9uZXh0anMub3JnL2xlYXJuL2Jhc2ljcy9zdHlsaW5nLWNvbXBvbmVudHMvbm8tZWZmZWN0LWZvci1uZXN0ZWQtY29tcG9uZW50c1xyXG5cclxuY29uc3QgUHJvZ3JhbUVudHJ5ID0gKHByb3BzKSA9PiAoXHJcbiAgPGRpdiBjbGFzc05hbWU9XCJwcm9ncmFtRW50cnlcIiBpZD17cHJvcHMua2V5fT5cclxuICAgIDxzcGFuIGNsYXNzTmFtZT1cInRpbWVXcmFwcGVyXCI+e3Byb3BzLnRpbWV9PC9zcGFuPlxyXG4gICAgPHNwYW4gY2xhc3NOYW1lPVwiaW5mb1dyYXBwZXJcIj5cclxuICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIj57cHJvcHMudGl0bGV9PC9zcGFuPiZuYnNwOyZuYnNwO1xyXG4gICAgICA8c3BhbiBjbGFzc05hbWU9XCJsZWFkXCI+e3Byb3BzLmxlYWR9PC9zcGFuPlxyXG4gICAgPC9zcGFuPlxyXG4gICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAucHJvZ3JhbUVudHJ5IHtcclxuICAgICAgICBwYWRkaW5nOiAwLjVlbSAwcHg7XHJcbiAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHJnYmEoMzIsMjcsNjMsMC4xKTtcclxuICAgICAgfVxyXG4gICAgICBzcGFuIHtcclxuICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gICAgICB9XHJcbiAgICAgIHNwYW4udGltZVdyYXBwZXIge1xyXG4gICAgICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcclxuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxZW07XHJcbiAgICAgIH1cclxuICAgICAgc3Bhbi5pbmZvV3JhcHBlciB7XHJcbiAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xyXG4gICAgICB9XHJcbiAgICAgIHNwYW4udGl0bGUge1xyXG4gICAgICAgIGJhY2tncm91bmQ6IHJnYmEoMjU1LDI1NSwwLDAuNCk7XHJcbiAgICAgICAgZm9udC1zdHlsZTogaXRhbGljO1xyXG4gICAgICAgIHBhZGRpbmc6IDJweCAzcHg7XHJcbiAgICAgIH1cclxuICAgICAgc3Bhbi5sZWFkIHtcclxuICAgICAgICBwYWRkaW5nLXJpZ2h0OiAxZW07XHJcbiAgICAgIH1cclxuICAgIGB9PC9zdHlsZT5cclxuICA8L2Rpdj5cclxuICBcclxuKVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgUHJvZ3JhbUVudHJ5Il19 */\n/*@ sourceURL=C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\ProgramEntry.js */",
-    __self: this
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (ProgramEntry);
-
-/***/ }),
-
 /***/ "./components/SubHeader.js":
 /*!*********************************!*\
   !*** ./components/SubHeader.js ***!
@@ -645,6 +576,55 @@ var Title = function Title(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Title);
+
+/***/ }),
+
+/***/ "./components/WhyCodeEntry.js":
+/*!************************************!*\
+  !*** ./components/WhyCodeEntry.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\WhyCodeEntry.js";
+
+ // styled jsx for props in css
+// https://nextjs.org/learn/basics/styling-components/no-effect-for-nested-components
+
+var WhyCodeEntry = function WhyCodeEntry(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "whyCodeEntry",
+    id: props.id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, props.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "whyCode",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, props.whyCode));
+}; // <div className="whyCodeEntry" id={props.key} key={props.key}
+
+
+/* harmony default export */ __webpack_exports__["default"] = (WhyCodeEntry);
 
 /***/ }),
 
@@ -865,9 +845,9 @@ function (_Component) {
 
 /***/ }),
 
-/***/ "./pages/program.js":
+/***/ "./pages/whycode.js":
 /*!**************************!*\
-  !*** ./pages/program.js ***!
+  !*** ./pages/whycode.js ***!
   \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -876,171 +856,85 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
-/* harmony import */ var _components_ProgramEntry__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ProgramEntry */ "./components/ProgramEntry.js");
-/* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Title */ "./components/Title.js");
-var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\program.js";
+/* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Title */ "./components/Title.js");
+/* harmony import */ var _components_WhyCodeEntry__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/WhyCodeEntry */ "./components/WhyCodeEntry.js");
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\whycode.js";
 
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-// pages/program.js
+// pages/about.js
 
 
 
 
- // make the program as JSON
-
-var prgJson = [{
+var whyCodes = [{
   id: 0,
-  time: '11.00 – 11.10',
-  title: 'Introduction',
-  lead: 'by PCD organizers'
+  thumb: '../static/images/people/EsterMarieAagard.jpg',
+  name: 'Ester Marie Aagard',
+  whyCode: 'The software we use can influence our life in many ways, some we are aware of and some which are hidden. I want to understand the hidden parts as data-tracking, the way in which different software’s are programmed and so forth. And in my projects, I try to visualize the hidden parts to try to make people reflect upon them. Therefore, I use coding both to understand and explain the software that we use'
 }, {
   id: 1,
-  time: '11.15 – 11.30',
-  title: 'p5.js (video)',
-  lead: 'by Lauren Lee McCarthy'
+  thumb: '../static/images/people/AndrejaAndric.jpg',
+  name: 'Andreja Andric',
+  whyCode: 'I subscribe to the Pythagorean idea that numbers are behind everything. With this in mind, coding helps me connect to the hidden side of the world and is a form of contemplative action'
 }, {
   id: 2,
-  time: '11.35 – 11.50',
-  title: 'Learning or mimicry? On mimetic bots and developmental robopsychology',
-  lead: 'by Malthe Stavning Erslev'
+  thumb: '../static/images/people/Tilde.jpg',
+  name: 'Tilde Lageri Damborg',
+  whyCode: 'Coding to me is not only a tool to reach a end goal, its an inspiring, strict, rigid and sometimes very annoying co-designer'
 }, {
   id: 3,
-  time: '11.55 – 12.10',
-  title: 'Object awareness',
-  lead: 'by Ester Marie Aagard'
+  thumb: '../static/images/people/MalteStavningErslev.jpg',
+  name: 'Malthe Stavning Erslev',
+  whyCode: 'I am interested in coding because it inspires me and enables me to think trough conceptual ideas, notions, concerns etc. I will often start out with a vague idea of a concept that I want to explore, and the practice of coding will ‘take’ me somewhere I did not anticipate. I like to remain open and curious as to what reveals itself as being interesting, troubling or surprising when coding. As such, coding is not only a constructive practice for me (where the goal is working software), but is as much a practice of knowledge development. I mostly explore concepts related to words, language and literature, and my practice often results in a rough sketch or proof-of-concept – hence I refer to my practice as ‘conceptual software design’'
 }, {
   id: 4,
-  time: '12.15 – 12.30',
-  title: 'i[x]',
-  lead: 'by Alex Mørch'
+  thumb: '../static/images/people/AnnKarring.jpg',
+  name: 'Ann Karring',
+  whyCode: 'To me coding is a way to express myself. Whether it is personal or global issues, coding helps me reflect on these issues. I also use it as a tool of communication, so I can share my views with others'
 }, {
   id: 5,
-  time: '12.35 – 12.50',
-  title: 'Turmites',
-  lead: 'by Tobias Stenberg Christensen & Anders Visti'
-}, {
-  id: 6,
-  time: '12.50 – 13.20',
-  title: 'LUNCH BREAK',
-  lead: ''
-}, {
-  id: 7,
-  time: '13.20 – 13.35',
-  title: 'Introducing Code in Graphic Design Education',
-  lead: 'by Stig Møller Hansen'
-}, {
-  id: 8,
-  time: '13.40 – 13.55',
-  title: 'Who are YOU?',
-  lead: 'by Ann Karring'
-}, {
-  id: 9,
-  time: '14.00 – 14.15',
-  title: 'Numbers, Networks, Noise',
-  lead: 'by Andreja Andric & Anders Visti'
-}, {
-  id: 10,
-  time: '14.20 – 14.35',
-  title: 'Data Erasure — The Act of Forgetting',
-  lead: 'by Tilde Lageri Damborg'
-}, {
-  id: 11,
-  time: '14.40 – 14.55',
-  title: 'Vocable Code',
-  lead: 'by Winnie Soon'
+  thumb: '../static/images/people/MarkPoulsen.jpg',
+  name: 'Mark Staun Poulsen',
+  whyCode: 'A year ago, I would have flinched at the mere sight of code. However now, having experienced the potential of computation and creative practices, I highly regard, and seek to understand, the use of code and computation in the art, storytelling and interactive design that I encounter every day. At the same time, code underwrites so many aspects of contemporary digital living – in multifaceted ways. This often makes me cautious and uneasy. It ultimately forces me to consider and reflect on my role as a programmer and the code I can contribute to the rest of the world. Code does matter, and as a student at Digital Design at Aarhus University I have a unique chance to explore meaning and consequences of computation in light of a creative and practical engagement with programming.'
 }];
-
-var Program =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(Program, _Component);
-
-  function Program(props) {
-    var _this;
-
-    _classCallCheck(this, Program);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Program).call(this, props));
-    _this.state = {};
-    return _this;
-  }
-
-  _createClass(Program, [{
-    key: "render",
-    value: function render() {
-      // some code here
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_4__["default"], {
-        txt: "Program",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 95
-        },
-        __self: this
-      }), prgJson.map(function (pe, i) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_ProgramEntry__WEBPACK_IMPORTED_MODULE_3__["default"], {
-          key: pe.id,
-          title: pe.title,
-          lead: pe.lead,
-          time: pe.time,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 97
-          },
-          __self: this
-        });
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 104
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105
-        },
-        __self: this
-      }, "11.30 \u2013 15.30", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 105
-        },
-        __self: this
-      }), "[Code & Share]\xA0\xA0\xA0Presenters and audiences hang out together  to discuss presentations and share code"));
-    }
-  }]);
-
-  return Program;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-
-/* harmony default export */ __webpack_exports__["default"] = (Program);
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    txt: "\u201CWhy are you interested in coding?\u201D",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "WhyCodeWrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, whyCodes.map(function (wc, i) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WhyCodeEntry__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      id: wc.id,
+      key: wc.id,
+      name: wc.name,
+      thumb: wc.thumb,
+      whyCode: wc.whyCode,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
+    });
+  })));
+});
 
 /***/ }),
 
@@ -1077,14 +971,14 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 8:
 /*!********************************!*\
-  !*** multi ./pages/program.js ***!
+  !*** multi ./pages/whycode.js ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/program.js */"./pages/program.js");
+module.exports = __webpack_require__(/*! ./pages/whycode.js */"./pages/whycode.js");
 
 
 /***/ }),
@@ -1153,18 +1047,7 @@ module.exports = require("react-icons/md");
 
 module.exports = require("react-responsive-navbar");
 
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
-
 /***/ })
 
 /******/ });
-//# sourceMappingURL=program.js.map
+//# sourceMappingURL=whycode.js.map

@@ -27858,7 +27858,7 @@ var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\gallery.js";
 
 /***/ }),
 
-/***/ 9:
+/***/ 12:
 /*!********************************!*\
   !*** multi ./pages/gallery.js ***!
   \********************************/
@@ -27883,5 +27883,5 @@ module.exports = dll_9c26f521c5881a249bdd;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]));;
+},[[12,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=gallery.js.map

@@ -21089,37 +21089,6 @@ function (_Component) {
 
   return Program;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-/*
-class Program extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    // some code here
-    return (
-      <Layout>
-        <Title txt="Program" />
-        <p>To be announced ...</p>
-        <p>Presenters so far:<br/>
-        Ester Marie Aagard<br/>
-        Andreja Andric<br/>
-        Tobias Stenberg Christensen<br/>
-        Malthe Stavning Erslev<br/>
-        Stig Møller Hansen<br/>
-        Ann Karring<br/>
-        Tilde LD<br/>
-        Lauren Lee McCarthy<br/>
-        Alex Mørch<br/>
-        Anders Visti<br/>
-        </p>
-      </Layout>
-    )
-  }
-}
-*/
-
 
 /* harmony default export */ __webpack_exports__["default"] = (Program);
     (function (Component, route) {
@@ -21144,7 +21113,7 @@ class Program extends Component {
 
 /***/ }),
 
-/***/ 10:
+/***/ 9:
 /*!********************************!*\
   !*** multi ./pages/program.js ***!
   \********************************/
@@ -21169,5 +21138,5 @@ module.exports = dll_9c26f521c5881a249bdd;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]));;
+},[[9,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=program.js.map

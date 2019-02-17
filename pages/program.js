@@ -104,43 +104,8 @@ class Program extends Component {
         <br/>
         <p>11.30 – 15.30<br/>[Code &amp; Share]&nbsp;&nbsp;&nbsp;Presenters and audiences hang out together  to discuss presentations and share code</p>
       </Layout>
-
-
     )
   }
 }
-
-
-
-/*
-class Program extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
-  render() {
-    // some code here
-    return (
-      <Layout>
-        <Title txt="Program" />
-        <p>To be announced ...</p>
-        <p>Presenters so far:<br/>
-        Ester Marie Aagard<br/>
-        Andreja Andric<br/>
-        Tobias Stenberg Christensen<br/>
-        Malthe Stavning Erslev<br/>
-        Stig Møller Hansen<br/>
-        Ann Karring<br/>
-        Tilde LD<br/>
-        Lauren Lee McCarthy<br/>
-        Alex Mørch<br/>
-        Anders Visti<br/>
-        </p>
-      </Layout>
-    )
-  }
-}
-*/
 
 export default Program

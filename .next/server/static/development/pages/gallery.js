@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 7);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1089,7 +1089,7 @@ var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\gallery.js";
 
 /***/ }),
 
-/***/ 4:
+/***/ 7:
 /*!********************************!*\
   !*** multi ./pages/gallery.js ***!
   \********************************/

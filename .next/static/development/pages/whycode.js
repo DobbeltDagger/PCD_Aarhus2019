@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\index.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\whycode.js"],{
 
 /***/ "./components/ActiveLink.js":
 /*!**********************************!*\
@@ -483,6 +483,55 @@ var Title = function Title(props) {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Title);
+
+/***/ }),
+
+/***/ "./components/WhyCodeEntry.js":
+/*!************************************!*\
+  !*** ./components/WhyCodeEntry.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\components\\WhyCodeEntry.js";
+
+ // styled jsx for props in css
+// https://nextjs.org/learn/basics/styling-components/no-effect-for-nested-components
+
+var WhyCodeEntry = function WhyCodeEntry(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "whyCodeEntry",
+    id: props.id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, props.name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "whyCode",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, props.whyCode));
+}; // <div className="whyCodeEntry" id={props.key} key={props.key}
+
+
+/* harmony default export */ __webpack_exports__["default"] = (WhyCodeEntry);
 
 /***/ }),
 
@@ -19948,10 +19997,10 @@ module.exports = {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/whycode.js":
+/*!**************************!*\
+  !*** ./pages/whycode.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -19959,271 +20008,85 @@ module.exports = {
 __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MyLayout.js */ "./components/MyLayout.js");
 /* harmony import */ var _components_Title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Title */ "./components/Title.js");
-var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\index.js";
+/* harmony import */ var _components_WhyCodeEntry__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/WhyCodeEntry */ "./components/WhyCodeEntry.js");
+var _jsxFileName = "C:\\xampp\\htdocs\\PCD_AARHUS_NytDesign\\pages\\whycode.js";
 
-
-function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
-
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
-function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
-
-function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
-
-// pages/index.js
+// pages/about.js
 
 
 
 
-
-var Index =
-/*#__PURE__*/
-function (_Component) {
-  _inherits(Index, _Component);
-
-  function Index(props) {
-    var _this;
-
-    _classCallCheck(this, Index);
-
-    _this = _possibleConstructorReturn(this, _getPrototypeOf(Index).call(this, props));
-    _this.state = {};
-    return _this;
-  }
-
-  _createClass(Index, [{
-    key: "componentDidMount",
-    value: function componentDidMount() {
-      console.log("component did mount");
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid Grid--gutters Grid--full large-Grid--fit",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid-cell",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "../static/images/PCD_front.jpg",
-        className: "fitColumn",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        txt: "PCD @Aarhus 2019, How to think about code differently",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid Grid--gutters Grid--full large-Grid--fit",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid-cell",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      }, "For PCD @ Aarhus 2019, we are aiming to build an open and local community to explore code and coding practice in many different ways beyond science and engineering specialisation and functional applications development.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid-cell",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
-      }, "Together with each of you from diverse backgrounds, we would like to explore how could we think about code differently and creatively via art, design and beyond."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid Grid--gutters Grid--full large-Grid--fit",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid-cell",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        id: "mapSource",
-        scrollwheel: "false",
-        width: "100%",
-        frameBorder: "0",
-        allowFullScreen: true,
-        src: "https://umap.openstreetmap.fr/en/map/processing-community-day-worldwide-2019_254734?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=false&measureControl=false&editinosmControl=false",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        txt: "Processing Community Day @Worldwide",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid Grid--gutters Grid--full large-Grid--fit",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 41
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid-cell",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "https://processing.org",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, "Processing")), " is a free and open-source software platform for learning how to code within the context of the visual arts, created by Casey Reas and Ben Fry. It is complemented by a web version, called ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "https://p5js.org/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, "p5.js")), ", created by Lauren McCarthy.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }), "To date, Processing and p5.js are used by a worldwide community of artists, coders, educators, students.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid-cell",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }, "A focus of this project is to make learning how to program and make creative work with code accessible to diverse communities. The ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "https://medium.com/processing-foundation/after-processing-community-day-8e124b1ec85e",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }, "first Processing Community Day (PCD)")), ", organized by Taeyoon Choi and the Processing Foundation in 2017 was an effort to improve diversity within the art and programming community.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid-cell",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, "For Processing Community Day 2019, we would like to broaden the reach and impact of this community by organizing with hundreds of Processing communities around the world. The Processing Foundation will be organizing a Processing Community Day in Los Angeles as well as inviting node organizers from all over the world to join us in organizing events in multiple locations."))));
-    }
-  }]);
-
-  return Index;
-}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
-/*
-<div className="Grid Grid--gutters Grid--full large-Grid--fit">
-  <div className="Grid-cell">
-    <iframe id="mapSource" scrollwheel="false" width="100%" frameBorder="0" allowFullScreen src="https://umap.openstreetmap.fr/en/map/processing-community-day-worldwide-2019_254734?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=false&measureControl=false&editinosmControl=false"></iframe>
-  </div>
-</div>
-*/
-
-
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+var whyCodes = [{
+  id: 0,
+  thumb: '../static/images/people/EsterMarieAagard.jpg',
+  name: 'Ester Marie Aagard',
+  whyCode: 'The software we use can influence our life in many ways, some we are aware of and some which are hidden. I want to understand the hidden parts as data-tracking, the way in which different software’s are programmed and so forth. And in my projects, I try to visualize the hidden parts to try to make people reflect upon them. Therefore, I use coding both to understand and explain the software that we use'
+}, {
+  id: 1,
+  thumb: '../static/images/people/AndrejaAndric.jpg',
+  name: 'Andreja Andric',
+  whyCode: 'I subscribe to the Pythagorean idea that numbers are behind everything. With this in mind, coding helps me connect to the hidden side of the world and is a form of contemplative action'
+}, {
+  id: 2,
+  thumb: '../static/images/people/Tilde.jpg',
+  name: 'Tilde Lageri Damborg',
+  whyCode: 'Coding to me is not only a tool to reach a end goal, its an inspiring, strict, rigid and sometimes very annoying co-designer'
+}, {
+  id: 3,
+  thumb: '../static/images/people/MalteStavningErslev.jpg',
+  name: 'Malthe Stavning Erslev',
+  whyCode: 'I am interested in coding because it inspires me and enables me to think trough conceptual ideas, notions, concerns etc. I will often start out with a vague idea of a concept that I want to explore, and the practice of coding will ‘take’ me somewhere I did not anticipate. I like to remain open and curious as to what reveals itself as being interesting, troubling or surprising when coding. As such, coding is not only a constructive practice for me (where the goal is working software), but is as much a practice of knowledge development. I mostly explore concepts related to words, language and literature, and my practice often results in a rough sketch or proof-of-concept – hence I refer to my practice as ‘conceptual software design’'
+}, {
+  id: 4,
+  thumb: '../static/images/people/AnnKarring.jpg',
+  name: 'Ann Karring',
+  whyCode: 'To me coding is a way to express myself. Whether it is personal or global issues, coding helps me reflect on these issues. I also use it as a tool of communication, so I can share my views with others'
+}, {
+  id: 5,
+  thumb: '../static/images/people/MarkPoulsen.jpg',
+  name: 'Mark Staun Poulsen',
+  whyCode: 'A year ago, I would have flinched at the mere sight of code. However now, having experienced the potential of computation and creative practices, I highly regard, and seek to understand, the use of code and computation in the art, storytelling and interactive design that I encounter every day. At the same time, code underwrites so many aspects of contemporary digital living – in multifaceted ways. This often makes me cautious and uneasy. It ultimately forces me to consider and reflect on my role as a programmer and the code I can contribute to the rest of the world. Code does matter, and as a student at Digital Design at Aarhus University I have a unique chance to explore meaning and consequences of computation in light of a creative and practical engagement with programming.'
+}];
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    txt: "\u201CWhy are you interested in coding?\u201D",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "WhyCodeWrapper",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, whyCodes.map(function (wc, i) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WhyCodeEntry__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      id: wc.id,
+      key: wc.id,
+      name: wc.name,
+      thumb: wc.thumb,
+      whyCode: wc.whyCode,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
+    });
+  })));
+});
     (function (Component, route) {
       if(!Component) return
       if (false) {}
@@ -20240,21 +20103,21 @@ function (_Component) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/whycode")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/next/node_modules/webpack/buildin/harmony-module.js */ "./node_modules/next/node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 13:
+/*!********************************!*\
+  !*** multi ./pages/whycode.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/', function() {
-module.exports = __webpack_require__(/*! ./pages/index.js */"./pages/index.js");
+__NEXT_REGISTER_PAGE('/whycode', function() {
+module.exports = __webpack_require__(/*! ./pages/whycode.js */"./pages/whycode.js");
 
 return { page: module.exports.default }});
 
@@ -20271,5 +20134,5 @@ module.exports = dll_9c26f521c5881a249bdd;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]));;
-//# sourceMappingURL=index.js.map
+},[[13,"static/runtime/webpack.js","styles"]]]));;
+//# sourceMappingURL=whycode.js.map

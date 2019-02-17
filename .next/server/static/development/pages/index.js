@@ -929,14 +929,7 @@ function (_Component) {
           lineNumber: 31
         },
         __self: this
-      }, "Together with each of you from diverse backgrounds, we would like to explore how could we think about code differently and creatively via art, design and beyond."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
-        txt: "Processing Community Day @Worldwide",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, "Together with each of you from diverse backgrounds, we would like to explore how could we think about code differently and creatively via art, design and beyond."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "Grid Grid--gutters Grid--full large-Grid--fit",
         __source: {
           fileName: _jsxFileName,
@@ -950,74 +943,33 @@ function (_Component) {
           lineNumber: 36
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
+        id: "mapSource",
+        scrollwheel: "false",
+        width: "100%",
+        frameBorder: "0",
+        allowFullScreen: true,
+        src: "https://umap.openstreetmap.fr/en/map/processing-community-day-worldwide-2019_254734?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=false&measureControl=false&editinosmControl=false",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "https://processing.org",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }, "Processing")), " is a free and open-source software platform for learning how to code within the context of the visual arts, created by Casey Reas and Ben Fry. It is complemented by a web version, called ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "https://p5js.org/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }, "p5.js")), ", created by Lauren McCarthy.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }), "To date, Processing and p5.js are used by a worldwide community of artists, coders, educators, students.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid-cell",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Title__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        txt: "Processing Community Day @Worldwide",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 40
         },
         __self: this
-      }, "A focus of this project is to make learning how to program and make creative work with code accessible to diverse communities. The ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-        href: "https://medium.com/processing-foundation/after-processing-community-day-8e124b1ec85e",
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "Grid Grid--gutters Grid--full large-Grid--fit",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 41
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        target: "_blank",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40
-        },
-        __self: this
-      }, "first Processing Community Day (PCD)")), ", organized by Taeyoon Choi and the Processing Foundation in 2017 was an effort to improve diversity within the art and programming community.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "Grid-cell",
         __source: {
           fileName: _jsxFileName,
@@ -1030,33 +982,81 @@ function (_Component) {
           lineNumber: 43
         },
         __self: this
-      }, "For Processing Community Day 2019, we would like to broaden the reach and impact of this community by organizing with hundreds of Processing communities around the world. The Processing Foundation will be organizing a Processing Community Day in Los Angeles as well as inviting node organizers from all over the world to join us in organizing events in multiple locations."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid Grid--gutters Grid--full large-Grid--fit",
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "https://processing.org",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, "Processing")), " is a free and open-source software platform for learning how to code within the context of the visual arts, created by Casey Reas and Ben Fry. It is complemented by a web version, called ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "https://p5js.org/",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, "p5.js")), ", created by Lauren McCarthy.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }), "To date, Processing and p5.js are used by a worldwide community of artists, coders, educators, students.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "Grid-cell",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "Grid-cell",
+      }, "A focus of this project is to make learning how to program and make creative work with code accessible to diverse communities. The ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        href: "https://medium.com/processing-foundation/after-processing-community-day-8e124b1ec85e",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 46
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-        id: "mapSource",
-        scrollwheel: "false",
-        width: "100%",
-        frameBorder: "0",
-        allowFullScreen: true,
-        src: "https://umap.openstreetmap.fr/en/map/processing-community-day-worldwide-2019_254734?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=false&embedControl=null&datalayersControl=false&onLoadPanel=undefined&captionBar=false&fullscreenControl=false&measureControl=false&editinosmControl=false",
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, "first Processing Community Day (PCD)")), ", organized by Taeyoon Choi and the Processing Foundation in 2017 was an effort to improve diversity within the art and programming community.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "Grid-cell",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
         },
         __self: this
-      }))));
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, "For Processing Community Day 2019, we would like to broaden the reach and impact of this community by organizing with hundreds of Processing communities around the world. The Processing Foundation will be organizing a Processing Community Day in Los Angeles as well as inviting node organizers from all over the world to join us in organizing events in multiple locations."))));
     }
   }]);
 

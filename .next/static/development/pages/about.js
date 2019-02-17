@@ -20418,7 +20418,7 @@ var people = [{
 
 /***/ }),
 
-/***/ 12:
+/***/ 11:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -20443,5 +20443,5 @@ module.exports = dll_9c26f521c5881a249bdd;
 
 /***/ })
 
-},[[12,"static/runtime/webpack.js","styles"]]]));;
+},[[11,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=about.js.map
