@@ -1,3 +1,3 @@
 ## Processing Community Day 2019 @Aarhus
-Website built with nextjs, deployed on netlify. https://pcdaarhus.net
+Website built with nextjs, deployed on netlify. https://pcdaarhus.net<br/>
 If you want to run dev locally: npm run dev -> localhost:3000
