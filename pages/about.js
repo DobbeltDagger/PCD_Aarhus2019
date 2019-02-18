@@ -74,7 +74,6 @@ const people = [
     id: 8,
     thumb: '../static/images/people/AlexMorch.jpg',
     name: 'Alex Mørch',
-    /* desc: '(b. 1987, Denmark) is a transdisciplinary composer and artist. His works are typically a mixture of homebrewn machinery in spatial installations, involving human interaction. They are an exploration of the music and life that hides in the machinery, especially when pushed to its limits and connected in inexpedient ways. The compositions reflect a fascination for chaos and randomness contra synchronicity – that everything is connected (or the absolute opposite). Alex Mørch is currently studying the soloist programme in electronic composition at DIEM (Danish Institute of Electronic Music) at the Royal Academy of Music, Aarhus, from where he also holds a master degree', */
     desc: '(b. 1987, Denmark) is a transdisciplinary composer and artist. His works are typically a mixture of homebrewn machinery in spatial installations, involving human interaction. Alex Mørch is currently studying the soloist programme in electronic composition at DIEM (Danish Institute of Electronic Music) at the Royal Academy of Music, Aarhus, from where he also holds a master degree',
     link: 'https://alexmorch.com/',
     newWindow: '_blank'

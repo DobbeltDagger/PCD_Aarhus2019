@@ -17,17 +17,4 @@ const WorkshopFull = (props) => (
   </div>
 )
 
-// <p>{props.ws.title}</p>
-/*
-// WorkshopFull.getInitialProps = async function() {
-WorkshopFull.getInitialProps = function() {
-  let theWs = workshops[props.id];
-  console.log("theWs:", theWs);
-  return {
-    // ws: workshops,
-    ws: theWs
-  }
-}
-*/
-
 export default WorkshopFull

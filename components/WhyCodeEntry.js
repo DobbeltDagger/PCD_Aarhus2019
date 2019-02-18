@@ -10,6 +10,4 @@ const WhyCodeEntry = (props) => (
   </div>
 )
 
-// <div className="whyCodeEntry" id={props.key} key={props.key}
-
 export default WhyCodeEntry

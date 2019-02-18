@@ -5,7 +5,7 @@ import Layout from '../components/MyLayout.js'
 import ProgramEntry from '../components/ProgramEntry'
 import Title from '../components/Title'
 
-// make the program as JSON
+// JSON program
 var prgJson = [
   {
     id: 0,
@@ -81,13 +81,11 @@ var prgJson = [
   }
 ];
 
-
 class Program extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
-
   render() {
     // some code here
     return (

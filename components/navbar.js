@@ -1,8 +1,6 @@
 import {Component} from 'react'
 import ActiveLink from '../components/ActiveLink'
 import ResponsiveMenu from 'react-responsive-navbar'
-// import { FaBars, FaTimes } from 'react-icons/fa'
-// import { IoIosMenu, IoIosClose } from 'react-icons/io'
 import { MdMenu, MdClose } from 'react-icons/md'
 
 // https://www.npmjs.com/package/react-responsive-navbar
